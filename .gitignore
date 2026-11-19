@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+
+# Păstrăm doar livrarea finală; rulările intermediare sunt generate local.
+results/*
+!results/final-deep-audited/
+!results/final-deep-audited/results.json
+!results/final-deep-audited/results.csv
+!results/final-deep-audited/summary.json
+!results/final-deep-audited/validation.json

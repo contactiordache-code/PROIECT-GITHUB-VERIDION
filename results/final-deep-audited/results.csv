@@ -1,0 +1,339 @@
+domain,resolved_url,status,http_status,technologies,errors,warnings,duration_ms,analyzed_at
+jcmobilecigars.com,,failed,,,HTTPS and HTTP failed for jcmobilecigars.com,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://jcmobilecigars.com/
+Call log:
+[2m  - navigating to ""http://jcmobilecigars.com/"", waiting until ""domcontentloaded""[22m
+",13,2026-11-19T16:07:13.080Z
+somalidisablesupport.com,https://somalidisablesupport.com/,detected,200,WordPress; jQuery; Elementor; WPForms; Mailcheck; punycode; Apache HTTP Server; Astra; Endurance Page Cache; jQuery Migrate; Let's Encrypt; Yoast SEO; core-js; Google Font API; Open Graph; Priority Hints; RSS; Twitter Emoji (Twemoji); Google Maps; reCAPTCHA; Swiper; HostGator DNS; Hostgator,,Collected with JavaScript browser fallback,59141,2026-11-19T16:12:04.062Z
+yourfamilylines.com,http://yourfamilylines.com/,detected,200,Apache HTTP Server; GoDaddy DNS; GoDaddy Email; GoDaddy,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://yourfamilylines.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://yourfamilylines.com/"", waiting until ""domcontentloaded""[22m
+",11402,2026-11-19T16:07:24.469Z
+szentkristofudvarhaz.hu,https://szentkristofudvarhaz.hu/,detected,200,Apache HTTP Server; Let's Encrypt,,Collected with JavaScript browser fallback,3146,2026-11-19T16:11:08.067Z
+disneystore.com,https://www.disneystore.com/,detected,403,Cloudflare; Akamai; Akamai Bot Manager; Cloudflare Browser Insights; HSTS; HTTP/3; Let's Encrypt; Module Federation; OneTrust; reCAPTCHA; Salesforce Commerce Cloud; Salesforce Interaction Studio; web-vitals; Akamai DNS; Zendesk; reCAPTCHA Enterprise,,Collected with JavaScript browser fallback,2554,2026-11-19T16:11:07.735Z
+chavchavadze-m2-41-tbilisi.booked.net,https://chavchavadze-m2-41-tbilisi.booked.net/,detected,404,Cloudflare; HTTP/3,,Collected with JavaScript browser fallback,5048,2026-11-19T16:11:11.412Z
+trs-energycontrol.de,https://www.trs-energycontrol.de/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Let's Encrypt; Lodash; Open Graph; Priority Hints; Sentry; Wix DNS,,Collected with JavaScript browser fallback,14960,2026-11-19T16:11:22.695Z
+xn--kleoghvidevareservice-qfc.dk,https://xn--kleoghvidevareservice-qfc.dk/,detected,200,WordPress; jQuery; Elementor; Astra; Font Awesome; jQuery Migrate; Let's Encrypt; Nginx; core-js; Google Font API; Priority Hints; RSS; Twitter Emoji (Twemoji); Ultimate Addons for Elementor; reCAPTCHA; Elementor Pro,,Collected with JavaScript browser fallback,28629,2026-11-19T16:11:36.697Z
+gogroupauto.com,https://www.gogroupauto.com/,detected,200,Google Tag Manager; Akamai Bot Manager; HSTS; jQuery UI; Let's Encrypt; Module Federation; Nginx; React; React Redux; Redux; reCAPTCHA; web-vitals; GoDaddy DNS; GoDaddy,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://gogroupauto.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://gogroupauto.com/"", waiting until ""domcontentloaded""[22m
+",10719,2026-11-19T16:07:29.313Z
+231selfstorage.com,https://231selfstorage.com/,detected,200,WordPress; Cloudflare; Google Analytics; Cloudflare Bot Management; HTTP/3; Kadence WP Blocks; Kadence WP Kadence; Let's Encrypt; WP Engine; WordPress Block Editor; Yoast SEO; Open Graph; Priority Hints; RSS; jQuery; jQuery Migrate; Leaflet; Twitter Emoji (Twemoji); GoDaddy DNS; GoDaddy; Kadence Blocks,,Collected with JavaScript browser fallback,35634,2026-11-19T16:11:48.444Z
+globalrn.com,https://globalrn.com/,detected,526,Cloudflare; HTTP/3; Google Cloud Storage; Cloudflare DNS; Google Workspace,,Collected with JavaScript browser fallback,6221,2026-11-19T16:11:28.916Z
+cytofastmed.com,https://www.cytofastmed.com/,detected,200,WordPress; jQuery; Joinchat; Bootstrap; ArvanCloud; Burst; Contact Form 7; Google Maps; HTTP/3; jQuery Migrate; jQuery UI; Let's Encrypt; Modernizr; Smart Slider 3; wpBakery; Burst Statistics; WPBakery Page Builder,,"Browser fallback failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""http://cytofastmed.com/"", waiting until ""domcontentloaded""[22m
+",12278,2026-11-19T16:07:36.686Z
+5starremoval.weebly.com,https://5starremoval.weebly.com/,detected,404,Cloudflare; Cloudflare Bot Management; Let's Encrypt,,Collected with JavaScript browser fallback,3585,2026-11-19T16:11:40.282Z
+coenzwezerijnen.nu,,failed,,,HTTPS and HTTP failed for coenzwezerijnen.nu,"Browser fallback failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""http://coenzwezerijnen.nu/"", waiting until ""domcontentloaded""[22m
+",62783,2026-11-19T16:08:27.729Z
+gutendorf.ru,https://gutendorf.ru/,detected,200,WordPress; Contact Form 7; Let's Encrypt; Nginx; reCAPTCHA; UIKit; WP Fastest Cache; WooCommerce; core-js; Google Font API; Plyr; RSS; WhatsApp Business Chat; Yandex.Metrika; TimeWeb DNS; Yandex Mail; jQuery BlockUI,,Collected with JavaScript browser fallback,56084,2026-11-19T16:12:44.528Z
+katesworldtravel.com,https://katesworldtravel.com/,detected,200,WordPress; jQuery; Elementor; Morphext; Astra; Bluehost; Endurance Page Cache; jQuery Migrate; Let's Encrypt; Nginx; Site Kit; Swiper; Yoast SEO; core-js; Facebook Pixel; Google Font API; Open Graph; RSS; Twitter Emoji (Twemoji); YouTube; Bluehost DNS; Google Workspace; Elementor Pro,,Collected with JavaScript browser fallback,76152,2026-11-19T16:13:20.215Z
+3xd.co.uk,https://www.3xd.co.uk/,detected,200,Cloudflare; Cloudflare Bot Management; HTTP/3; Let's Encrypt; WordPress; jQuery; Bootstrap; Max Mega Menu; core-js; Gravity Forms; jQuery Migrate; jsDelivr; Kinsta; OneTrust; Open Graph; Priority Hints; RSS; reCAPTCHA; Twenty Twenty-Four; Twitter Emoji (Twemoji); Typekit; WordPress Block Editor; Yoast SEO; ZURB Foundation; Cloudflare DNS; Apple iCloud Mail; Microsoft 365,,Collected with JavaScript browser fallback,21372,2026-11-19T16:12:25.478Z
+gapconstructionwi.com,https://www.gapconstructionwi.com/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Let's Encrypt; Lodash; Open Graph; Priority Hints; Sentry; Wix DNS; Google Workspace,,Collected with JavaScript browser fallback,25501,2026-11-19T16:12:35.856Z
+imgs.co.jp,https://www.imgs.co.jp/index.html,detected,200,Google Tag Manager; Google Analytics; jQuery; Adobe Experience Manager; Akamai; Akamai Bot Manager; Amazon ALB; Apache HTTP Server; DigiCert; Amazon Route 53; Amazon Web Services,,"Browser fallback failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""http://imgs.co.jp/"", waiting until ""domcontentloaded""[22m
+",6618,2026-11-19T16:07:39.711Z
+clotting-guide.online,https://www.clotting-guide.online/de/ueber/,detected,200,WordPress; jQuery; Apache HTTP Server; jQuery Migrate; Kaira Vogue; Let's Encrypt; WordPress Block Editor; Font Awesome; Google Font API; Plyr; Polylang; Priority Hints; RSS; Twitter Emoji (Twemoji); World4You,,Collected with JavaScript browser fallback,20282,2026-11-19T16:12:56.137Z
+38inspect.com,https://www.38inspect.com/,detected,200,WordPress; Cloudflare; jQuery; Cloudflare Bot Management; HTTP/3; jQuery Migrate; Kinsta; reCAPTCHA; Underscore.js; Yoast SEO; Google Font API; Open Graph; Priority Hints; RSS; WordPress Multisite; GoDaddy DNS; GoDaddy; Microsoft 365,,Collected with JavaScript browser fallback,15822,2026-11-19T16:13:00.350Z
+newbeaverborough.org,https://newbeaverborough.org/,detected,200,WordPress; jQuery; Elementor; imagesLoaded; Font Awesome; jQuery Migrate; Let's Encrypt; Nginx; OWL Carousel; W3 Total Cache; core-js; Hello Elementor; Priority Hints; RSS; Elementor Pro; Modern Events Calendar,,Collected with JavaScript browser fallback,82742,2026-11-19T16:14:18.879Z
+largsbaychiropractic.com.au,https://www.largsbaychiropractic.com.au/,detected,200,HSTS; Let's Encrypt; Squarespace; Squarespace Commerce; Stimulus; Cart Functionality; core-js; Google Maps; Open Graph; Priority Hints; reCAPTCHA; Emotion; Cloudflare DNS; Microsoft 365; reCAPTCHA Enterprise,,Collected with JavaScript browser fallback,27385,2026-11-19T16:13:27.736Z
+rsthealthcare.com,https://rsthealthcare.com/,detected,200,HTTP/3; Hostinger; Let's Encrypt; LiteSpeed; PHP; Cloudflare; Cloudflare Bot Management; Google Font API,,Collected with JavaScript browser fallback,6109,2026-11-19T16:13:06.472Z
+dioxoxigenio.com.br,http://dioxoxigenio.com.br/,detected,200,WordPress; jQuery; Elementor; Apache HTTP Server; jQuery Migrate; Swiper; W3 Total Cache; Amazon Route 53; Amazon Web Services; Elementor Pro,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://dioxoxigenio.com.br/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://dioxoxigenio.com.br/"", waiting until ""domcontentloaded""[22m
+",8538,2026-11-19T16:07:51.773Z
+doringpoort.com,https://doringpoort.com/,detected,200,Apache HTTP Server; Let's Encrypt,,Browser fallback failed: page.content: Unable to retrieve content because the page is navigating and changing the content.,3194,2026-11-19T16:07:47.329Z
+fsbwyoming.com,https://myfrbank.com/,detected,200,WordPress; Cloudflare; Google Tag Manager; jQuery; Elementor; imagesLoaded; JetEngine; Akismet; Cloudflare Bot Management; Gravity Forms; HSTS; HTTP/3; jQuery Migrate; Site Kit; Google Analytics; Cloudflare Turnstile; core-js; Hello Elementor; Open Graph; Priority Hints; RSS; RankMath SEO; Twitter Emoji (Twemoji); Vue.js; GoDaddy DNS; GoDaddy; Elementor Pro; JetElements; JetMenu; JetPopup; JetTabs; JetThemeCore,,Collected with JavaScript browser fallback,42871,2026-11-19T16:14:03.086Z
+msc-manching.de,https://msc-manching.de/,detected,200,WordPress; jQuery; Bootstrap; Apache HTTP Server; Colorlib Sparkling; Contact Form 7; jQuery Migrate; Let's Encrypt; WordPress Block Editor; Google Font API; RSS; core-js; PHP; Underscore.js; YouTube,,Collected with JavaScript browser fallback,39948,2026-11-19T16:14:07.684Z
+sgsextremaratio.it,https://sgsextremaratio.it/,detected,200,Let's Encrypt; Nginx; Nuxt.js; Ubuntu; Open Graph; Swiper; SiteGround,,Collected with JavaScript browser fallback,21778,2026-11-19T16:13:49.556Z
+coastwidemechanicalcentralcoast.com.au,https://coastwidemechanicalcentralcoast.com.au/,detected,200,WordPress; Google Analytics; Divi; HTTP/3; Let's Encrypt; LiteSpeed; Litespeed Cache; PHP; Web Font Loader; Google Font API; Open Graph; RSS; RankMath SEO,,Collected with JavaScript browser fallback,20619,2026-11-19T16:14:10.175Z
+amourfinder.com,https://www.amourfinder.com/,detected,200,Akamai; Akamai Bot Manager; HSTS; HTTP/3; Let's Encrypt; Medallia; PHP; Open Graph; core-js; UIKit,,Collected with JavaScript browser fallback,19512,2026-11-19T16:14:22.598Z
+lojatatical.com.br,http://www.lojatatical.com.br/,detected,200,Google Analytics; GoCache; Let's Encrypt; OWL Carousel; PHP; RequireJS; jQuery; Bootstrap; Cart Functionality; Google Font API; Google Maps; Magento; Swiper; Underscore.js; WhatsApp Business Chat; jQuery Migrate; jQuery UI; Slick,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://lojatatical.com.br/"", waiting until ""domcontentloaded""[22m
+",58773,2026-11-19T16:15:06.457Z
+jobresourcecentre.com,https://jobresourcecentre.com/,detected,200,WordPress; Google Analytics; jQuery; Elementor; Bootstrap; Magnific Popup; Contact Form 7; Flywheel; Google Maps; jQuery Migrate; Leaflet; Let's Encrypt; Redux Framework; reCAPTCHA; Select2; Slick; Slider Revolution; core-js; Google Font API; Open Graph; RSS; Twitter Emoji (Twemoji); Priority Hints; WPForms; Mailcheck; punycode; Swiper; Underscore.js; Fastly; Microsoft 365; Directorist,,Collected with JavaScript browser fallback,41000,2026-11-19T16:14:51.176Z
+ferienwohnung-kastell.de,,failed,,,HTTPS and HTTP failed for ferienwohnung-kastell.de,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://ferienwohnung-kastell.de/
+Call log:
+[2m  - navigating to ""http://ferienwohnung-kastell.de/"", waiting until ""domcontentloaded""[22m
+",4,2026-11-19T16:07:53.738Z
+253media.com,https://www.253media.com/,detected,200,Cloudflare; Google Tag Manager; Google Analytics; jQuery; Humblytics; Web Font Loader; cdnjs; Google Ads Conversion Tracking; Google Font API; Google Hosted Libraries; HSTS; HTTP/3; jsDelivr; Linkedin Ads; Linkedin Insight Tag; Amazon S3; Cloudflare Bot Management; core-js; Facebook Pixel; Microsoft Clarity; Open Graph; Webflow; Google Workspace,,Collected with JavaScript browser fallback,17123,2026-11-19T16:14:36.228Z
+velvety.eu,https://velvety.eu/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,5352,2026-11-19T16:14:27.951Z
+doortodoororganics.com,https://doortodoororganics.com/,detected,200,Cloudflare; AMP; HTTP/3; cdnjs; Font Awesome; Open Graph; Lightbox; Cloudflare DNS,,Collected with JavaScript browser fallback,11853,2026-11-19T16:14:39.804Z
+kentpropertyrenovations.co.uk,https://kentpropertyrenovations.co.uk/,detected,200,WordPress; Elementor; Apache HTTP Server; Contact Form 7; Let's Encrypt; WP Fastest Cache; Yoast SEO; core-js; Open Graph; Priority Hints; RSS; WhatsApp Business Chat; Google Maps; IONOS,,Collected with JavaScript browser fallback,36673,2026-11-19T16:15:12.901Z
+fisherinvestments.com,https://fisherinvestments.com/,detected,403,Let's Encrypt; Vercel; Akamai DNS; Apple iCloud Mail,,Collected with JavaScript browser fallback,11658,2026-11-19T16:14:51.462Z
+rionecontrastanga.net,https://rionecontrastanga.net/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,3044,2026-11-19T16:14:54.220Z
+stwannas.com,https://www.stwannas.com/,detected,403,Cloudflare; Cloudflare Bot Management; HSTS; GoDaddy DNS; GoDaddy; Google Workspace,,Collected with JavaScript browser fallback,2659,2026-11-19T16:14:54.121Z
+empresasori.com,http://empresasori.com/,detected,200,Apache HTTP Server; GoDaddy DNS; GoDaddy; Google Workspace,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://empresasori.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://empresasori.com/"", waiting until ""domcontentloaded""[22m
+",6852,2026-11-19T16:08:06.125Z
+familybroker.cz,https://familybroker.cz/,detected,404,Cloudflare; HTTP/3; Cloudflare DNS,,Collected with JavaScript browser fallback,22050,2026-11-19T16:15:16.270Z
+genesisny.net,https://genesisny.net/,detected,200,Let's Encrypt; OpenResty,,Browser fallback failed: page.content: Unable to retrieve content because the page is navigating and changing the content.,3087,2026-11-19T16:08:05.858Z
+5w.design,https://5w.design/,detected,200,WordPress; Cloudflare; jQuery; Cloudflare Bot Management; HTTP/3; jQuery Migrate; Let's Encrypt; Semplice; WP Engine; Yoast SEO; GSAP; LottieFiles; MediaElement.js; Open Graph; Twitter Emoji (Twemoji); Mailchimp,,Collected with JavaScript browser fallback,36769,2026-11-19T16:15:43.227Z
+huberautomotive.com,https://huberautomotive.com/,detected,403,Google Tag Manager; Akamai Bot Manager; HSTS; jQuery UI; Let's Encrypt; Module Federation; Nginx; React; React Redux; Redux; reCAPTCHA; web-vitals,,Collected with JavaScript browser fallback,12534,2026-11-19T16:15:19.794Z
+marien-apotheke-grefrath-app.de,https://www.marien-apotheke-grefrath-app.de/,detected,200,HSTS; Let's Encrypt,,"Browser fallback failed: page.goto: Navigation to ""http://marien-apotheke-grefrath-app.de/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://marien-apotheke-grefrath-app.de/"", waiting until ""domcontentloaded""[22m
+",1287,2026-11-19T16:08:07.145Z
+centreconsiliereavort.ro,https://centreconsiliereavort.ro/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,5656,2026-11-19T16:15:21.926Z
+infoaboutnetwork.com,https://infoaboutnetwork.com/,detected,200,Cloudflare; HTTP/3; jsDelivr; Svelte; Cloudflare DNS,,Collected with JavaScript browser fallback,7688,2026-11-19T16:15:25.848Z
+11853prospecthill.com,,failed,,,HTTPS and HTTP failed for 11853prospecthill.com,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://11853prospecthill.com/
+Call log:
+[2m  - navigating to ""http://11853prospecthill.com/"", waiting until ""domcontentloaded""[22m
+",80,2026-11-19T16:08:07.226Z
+passwordstore.it,https://passwordstore.it/,detected,200,WordPress; Google Tag Manager; Elementor; HSTS; Let's Encrypt; Nginx; WP Fastest Cache; core-js; Google Font API; Lightbox; Open Graph; RSS; Really Simple SSL & Security; Yoast SEO,,Collected with JavaScript browser fallback,41906,2026-11-19T16:16:01.825Z
+avocatalinamanciu.ro,https://avocatalinamanciu.ro/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,5781,2026-11-19T16:15:27.707Z
+abcdpinturas.com.br,https://americansolutions.com.br/congelado.html,detected,404,Apache HTTP Server; Let's Encrypt,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://abcdpinturas.com.br/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://abcdpinturas.com.br/"", waiting until ""domcontentloaded""[22m
+",6829,2026-11-19T16:08:15.547Z
+dssfla.com,https://www.dssfla.com/,detected,200,WordPress; Google Analytics; jQuery; Web Font Loader; Apache HTTP Server; Bluehost; Endurance Page Cache; Let's Encrypt; reCAPTCHA; wpBakery; anime.js; Google Font API; Open Graph; Priority Hints; RSS; Swiper; Yoast SEO; Microsoft 365,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://dssfla.com/"", waiting until ""domcontentloaded""[22m
+",83514,2026-11-19T16:16:51.221Z
+weducars.co.za,https://weducars.co.za/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,16037,2026-11-19T16:15:44.952Z
+4stonebuildings.com,https://4stonebuildings.com/,detected,200,WordPress; Cloudflare; Google Analytics; jQuery; Cloudflare Bot Management; Complianz; Font Awesome; HSTS; HTTP/3; jQuery Migrate; Kinsta; MonsterInsights; Typekit; Yoast SEO; Open Graph; WP-PageNavi; Google Maps; core-js; Gravity Forms; Cloudflare DNS; Apple iCloud Mail; WP PageNavi,,Collected with JavaScript browser fallback,32498,2026-11-19T16:16:15.725Z
+maniaupiekszania.pl,https://maniaupiekszania.pl/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,4884,2026-11-19T16:15:49.836Z
+sprucemeadowsmd.com,https://sprucemeadowsmd.com/,detected,200,Apache HTTP Server; GoDaddy DNS; GoDaddy,,Collected with JavaScript browser fallback,5137,2026-11-19T16:15:54.973Z
+natedea.co.uk,https://www.natedea.co.uk/,detected,200,WordPress; Cloudflare; Google Tag Manager; Google Analytics; jQuery; Cloudflare Bot Management; Contact Form 7; HTTP/3; Let's Encrypt; MonsterInsights; reCAPTCHA; WP Engine; Yoast SEO; core-js; GSAP; Open Graph; Priority Hints; RSS; WordPress Multisite; Amazon Route 53; Amazon Web Services,,Collected with JavaScript browser fallback,36377,2026-11-19T16:16:31.350Z
+loizillon.com,https://www.loizillon.com/,detected,200,Google Analytics; HSTS; Java; jsDelivr; Let's Encrypt; OWL Carousel; Bootstrap; cdnjs; Font Awesome; Open Graph; toastr; Google Maps; reCAPTCHA; OVHcloud,,Collected with JavaScript browser fallback,35698,2026-11-19T16:16:37.523Z
+haus-muehlenfeld-pommerby.de,https://haus-muehlenfeld-pommerby.de/,detected,200,jQuery; HSTS; MyWebsite Creator; Nginx; Sectigo; FlexSlider; Open Graph; Snowplow Analytics; IONOS,,Collected with JavaScript browser fallback,30916,2026-11-19T16:16:46.642Z
+arenaskolor.se,https://arenaskolor.se/,detected,200,WordPress; jQuery; Elementor; HSTS; jQuery Migrate; Let's Encrypt; Nginx; Seravo; Yoast SEO; core-js; Google Font API; Hello Elementor; Open Graph; Priority Hints; RSS; reCAPTCHA; Microsoft 365; Sendgrid; Elementor Pro,,Collected with JavaScript browser fallback,28594,2026-11-19T16:16:59.944Z
+boken.ch,https://boken.ch/,detected,200,WordPress; jQuery; FitVids.JS; Apache HTTP Server; jQuery Migrate; Let's Encrypt; Site Kit; Yoast SEO; Font Awesome; Google Font API; Matomo Analytics; Open Graph; RSS; WordPress Block Editor; Hostpoint,,Collected with JavaScript browser fallback,18334,2026-11-19T16:16:55.858Z
+restwellstreetmedicalcentre.com.au,https://restwellstreetmedicalcentre.com.au/,detected,200,Google Analytics; jQuery; Bootstrap; HTTP/3; Let's Encrypt; LiteSpeed; Font Awesome; Google Font API; Google Maps; Microsoft Clarity; VentraIP,,Collected with JavaScript browser fallback,34392,2026-11-19T16:17:21.034Z
+den-a-sha.co.jp,http://den-a-sha.co.jp/,detected,200,Nginx; Xserver,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://den-a-sha.co.jp/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://den-a-sha.co.jp/"", waiting until ""domcontentloaded""[22m
+",8518,2026-11-19T16:08:29.162Z
+365outsource.com,https://www.365outsource.com/,detected,200,WordPress; Cloudflare; Google Tag Manager; Google Analytics; jQuery; Elementor; Astra; HTTP/3; Hostinger; jQuery Migrate; Litespeed Cache; PHP; Swiper; Typekit; Yoast SEO; Cloudflare Turnstile; core-js; Google Font API; Open Graph; Priority Hints; RSS; Twitter Emoji (Twemoji); Cloudflare DNS; Google Workspace; Mailjet; Zoho; Elementor Pro; Simple Cloudflare Turnstile,,Collected with JavaScript browser fallback,25169,2026-11-19T16:17:17.748Z
+aida-cruises.at,https://aida-cruises.at/,detected,403,Adobe Experience Manager; Akamai; Akamai Bot Manager; DigiCert; F5 BigIP; HSTS; HTTP/3; Akamai DNS; Microsoft 365,,Collected with JavaScript browser fallback,7264,2026-11-19T16:17:03.122Z
+lets.gr,https://lets.gr/,detected,200,Let's Encrypt; Nginx; Emotion,,Collected with JavaScript browser fallback,7874,2026-11-19T16:17:07.819Z
+skywayrestaurants.net,https://skywayrestaurants.net/cgi-sys/suspendedpage.cgi,detected,200,Let's Encrypt; Nginx; Google Font API,,Collected with JavaScript browser fallback,16648,2026-11-19T16:17:19.770Z
+2020wealthadvisory.com,https://2020wealthadvisory.com/,detected,200,WordPress; Cloudflare; jQuery; Elementor; imagesLoaded; Cloudflare Bot Management; Cloudflare Browser Insights; Elementor Cloud; HSTS; HTTP/3; jQuery Migrate; Swiper; core-js; Hello Elementor; Open Graph; Priority Hints; RSS; RankMath SEO; Twitter Emoji (Twemoji); Vimeo; Google Maps; YouTube; Google Workspace; Elementor Pro,,Collected with JavaScript browser fallback,25702,2026-11-19T16:17:33.521Z
+hnafirm.com,https://www.hnafirm.com/,detected,200,jQuery; Bootstrap; cdnjs; Font Awesome; jsDelivr; Let's Encrypt; Nginx; OWL Carousel; Ubuntu; Google Font API; Swiper; Unpkg; WhatsApp Business Chat; Google Maps; GoDaddy DNS; GoDaddy,,Collected with JavaScript browser fallback,38638,2026-11-19T16:17:56.387Z
+itsolutions24.pl,https://itsolutions24.pl/,detected,200,WordPress; jQuery; Apache HTTP Server; HTTP/3; jQuery Migrate; Let's Encrypt; WordPress Block Editor; Priority Hints; RSS; Twitter Emoji (Twemoji); Preact,,Collected with JavaScript browser fallback,23727,2026-11-19T16:17:43.497Z
+aaice.net,https://aaice.net/,detected,200,WordPress; Cloudflare; Google Analytics; jQuery; All in One SEO; Cloudflare Bot Management; Divi; GoDaddy CoBlocks; HTTP/3; jQuery Migrate; MonsterInsights; Swiper; Google Font API; HubSpot; MediaElement.js; Open Graph; Priority Hints; RSS; Tippy.js; core-js; Snowplow Analytics; Gravity Forms; GoDaddy DNS; GoDaddy; Microsoft 365,,Collected with JavaScript browser fallback,48624,2026-11-19T16:18:09.658Z
+ecolab.com,https://www.ecolab.com/,detected,403,Google Tag Manager; Next.js; Akamai Bot Manager; DigiCert; HSTS; HTTP/3; Linkedin Ads; Vercel; Apple iCloud Mail; DocuSign; Microsoft 365; Mixpanel; Zoho,,Collected with JavaScript browser fallback,7271,2026-11-19T16:17:40.792Z
+mehmetefendimacedonia.com,https://mehmetefendimacedonia.com/,detected,200,Google Analytics; jQuery; Apache HTTP Server; Cufon; Google Hosted Libraries; Let's Encrypt; PHP; SWFObject; reCAPTCHA,,Collected with JavaScript browser fallback,35858,2026-11-19T16:18:16.651Z
+laplumedelisibilite.fr,https://www.laplumedelisibilite.fr/,detected,200,Google Analytics; jQuery; jQuery CDN; Let's Encrypt; Nginx; PHP; Google Font API; Open Graph; Google Maps; OVHcloud,,Collected with JavaScript browser fallback,32333,2026-11-19T16:18:15.831Z
+2ldm.com,https://2ldm.com/,detected,200,WordPress; Cloudflare; Google Analytics; jQuery; Elementor; Cloudflare Bot Management; GoDaddy CoBlocks; HTTP/3; jQuery Migrate; MonsterInsights; Site Kit; Swiper; Vue.js; wpBakery; Yoast SEO; Animate.css; Google Font API; Open Graph; Priority Hints; GoDaddy DNS; GoDaddy; Microsoft 365; WPBakery Page Builder; Ultimate Addons for WPBakery,,Collected with JavaScript browser fallback,35687,2026-11-19T16:18:32.074Z
+westchesterpointechiro.com,https://www.westchesterpointechiro.com/,detected,200,Google Analytics; jQuery; Apache HTTP Server; HSTS; jQuery Migrate; Let's Encrypt; PHP; ShareThis; Matomo Analytics; Open Graph; Cloudflare Turnstile; GoDaddy DNS; GoDaddy; Microsoft 365,,Collected with JavaScript browser fallback,29074,2026-11-19T16:18:38.732Z
+cei-expertises.fr,https://www.cei-expertises.fr/,detected,200,WordPress; jQuery; FitVids.JS; CookieYes; HTTP/3; Hostinger; jQuery Migrate; Let's Encrypt; LiteSpeed; Modernizr; PHP; Slick; Yoast SEO; Divi; Google Font API; Google Maps; Open Graph; PWA; Priority Hints; WhatsApp Business Chat,,Collected with JavaScript browser fallback,40770,2026-11-19T16:18:56.601Z
+seringa-safaris.com,https://seringasafaris.com/,detected,200,Cloudflare; Cloudflare Bot Management; Google Analytics; Google Maps; Open Graph; Tailwind CSS; HostGator DNS; Hostgator,,Collected with JavaScript browser fallback,23838,2026-11-19T16:18:40.489Z
+1planettechnologies.weebly.com,https://1planettechnologies.weebly.com/,detected,200,Cloudflare; jQuery; Cloudflare Bot Management; Google Hosted Libraries; Let's Encrypt; reCAPTCHA; Weebly; core-js; FancyBox; MediaElement.js; Open Graph; Snowplow Analytics; VideoJS,,Collected with JavaScript browser fallback,14729,2026-11-19T16:18:46.803Z
+soziale-dreigliederung.de,https://www.soziale-dreigliederung.de/,detected,200,Let's Encrypt; OpenResty; Htmx; Taboola; Tailwind CSS,,Collected with JavaScript browser fallback,26436,2026-11-19T16:19:05.168Z
+premierhomeremodeling.net,https://premierhomeremodeling.net/,detected,200,Next.js; Let's Encrypt; Nginx; Open Graph; GoDaddy DNS; GoDaddy,,Collected with JavaScript browser fallback,37499,2026-11-19T16:19:17.988Z
+bas-ingenieria.cl,http://bas-ingenieria.cl/,detected,200,Bootstrap; Let's Encrypt; Lightbox; Nginx; AOS; Bootstrap Icons; Font Awesome; Google Font API; Google Maps,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://bas-ingenieria.cl/"", waiting until ""domcontentloaded""[22m
+",68120,2026-11-19T16:19:54.924Z
+produkttheater.de,http://produkttheater.de/,detected,200,Google Analytics; Google Maps; Nginx; PHP; reCAPTCHA; Vue.js,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://produkttheater.de/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://produkttheater.de/"", waiting until ""domcontentloaded""[22m
+",1289,2026-11-19T16:08:44.336Z
+unnames.com,https://unnames.com/,detected,200,Shopify; Cloudflare; Google Analytics; jQuery; F5 BigIP; HSTS; HTTP/3; jQuery CDN; jsDelivr; Let's Encrypt; Slick; Apple Pay; Cart Functionality; core-js; Facebook Pixel; Open Graph; PayPal; Priority Hints; Google Pay,,Collected with JavaScript browser fallback,42940,2026-11-19T16:19:48.108Z
+handycars.com,https://www.handycars.com/,detected,200,WordPress; Google Tag Manager; Google Analytics; jQuery; Draftpress HFCM; jsDelivr; Let's Encrypt; Nginx; Slick; UserWay; Visual Composer; Matomo Analytics; Open Graph; cdnjs; FancyBox; Gravity Forms; Swiper; YouTube; GoDaddy DNS; GoDaddy; Microsoft 365; Sendgrid,,Collected with JavaScript browser fallback,32299,2026-11-19T16:19:37.491Z
+antikebau.de,https://antikebau.de/,detected,500,Apache HTTP Server; DigiCert,,Collected with JavaScript browser fallback,5398,2026-11-19T16:19:23.386Z
+3strandschurch.org,https://3strandschurch.org/,detected,200,WordPress; Cloudflare; jQuery; Cloudflare Bot Management; HTTP/3; jQuery Migrate; Let's Encrypt; OWL Carousel; WP Engine; Google Font API; Google Maps; MediaElement.js; Priority Hints; RSS; Twitter Emoji (Twemoji); GoDaddy DNS; GoDaddy; Modern Events Calendar,,Collected with JavaScript browser fallback,41362,2026-11-19T16:20:04.749Z
+alabamabuildingcontractor.com,https://www.alabamabuildingcontractor.com/,detected,200,WordPress; Cloudflare; jQuery; FitVids.JS; Max Mega Menu; Divi; HTTP/3; jQuery Migrate; PHP; Google Font API; RSS; Priority Hints; Cloudflare DNS,,Collected with JavaScript browser fallback,31598,2026-11-19T16:20:09.088Z
+resourceservicesolutions.com,https://resourceservicesolutions.com/,detected,200,Apache HTTP Server; GoDaddy DNS; GoDaddy,,Collected with JavaScript browser fallback,9289,2026-11-19T16:19:57.398Z
+skywardspeech.com.au,https://www.skywardspeech.com.au/,detected,200,WordPress; jQuery; imagesLoaded; FitVids.JS; Apache HTTP Server; FlexSlider; jQuery Migrate; Let's Encrypt; Lightbox; Modernizr; Slider Revolution; Swiper; Yoast SEO; Bootstrap; Contact Form 7; GSAP; Google Font API; Open Graph; Priority Hints; RSS; Google Workspace,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://skywardspeech.com.au/"", waiting until ""domcontentloaded""[22m
+",44631,2026-11-19T16:20:39.555Z
+sevecoitalia.com,https://www.sevecoitalia.com/,detected,200,Google Tag Manager; jQuery; Font Awesome; IIS; jQuery UI; Let's Encrypt; Microsoft ASP.NET; Snowplow Analytics; Google Font API; PWA; Aruba.it,,Collected with JavaScript browser fallback,19464,2026-11-19T16:20:16.863Z
+nielsbirk.dk,https://nielsbirk.dk/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,7380,2026-11-19T16:20:12.128Z
+branson-connection.com,,failed,,,HTTPS and HTTP failed for branson-connection.com,"Browser fallback failed: page.goto: net::ERR_EMPTY_RESPONSE at http://branson-connection.com/
+Call log:
+[2m  - navigating to ""http://branson-connection.com/"", waiting until ""domcontentloaded""[22m
+",4767,2026-11-19T16:08:59.032Z
+phucankhanggroup.com,https://phucankhanggroup.com/,detected,200,Google Analytics; jQuery; imagesLoaded; Flickity; DigiCert; FancyBox; IIS; jsDelivr; Microsoft ASP.NET; Modernizr; Snowplow Analytics; Swiper; AOS; Animate.css; Font Awesome; GSAP; Google Maps; Open Graph,,Collected with JavaScript browser fallback,61471,2026-11-19T16:21:12.063Z
+roccofortehotels.cn,https://www.roccofortehotels.cn/,detected,403,Google Tag Manager; jQuery; Akamai; Akamai mPulse; DigiCert; HSTS; HTTP/3; jsDelivr; Moment.js; Slick; Umbraco; UserWay,,Collected with JavaScript browser fallback,7023,2026-11-19T16:20:19.152Z
+everhartsoutdoor.com,,failed,,Cloudflare DNS; Microsoft 365,HTTPS and HTTP failed for everhartsoutdoor.com,"Browser fallback failed: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at http://everhartsoutdoor.com/
+Call log:
+[2m  - navigating to ""http://everhartsoutdoor.com/"", waiting until ""domcontentloaded""[22m
+",5738,2026-11-19T16:09:04.760Z
+europeaninns.com,https://europeaninns.com/index.php,detected,200,Apache HTTP Server; Let's Encrypt; PHP,,Collected with JavaScript browser fallback,10669,2026-11-19T16:20:29.127Z
+massageforworldpeace.com,https://www.massageforworldpeace.com/,detected,200,Apache HTTP Server; MyWebsite; MyWebsite Creator; Sectigo; Open Graph; RequireJS; Google Workspace,,Collected with JavaScript browser fallback,16326,2026-11-19T16:20:35.478Z
+cultivateventures.co.nz,https://cultivateventures.co.nz/,detected,200,HSTS; Let's Encrypt; Squarespace; Squarespace Commerce; Stimulus; Typekit; Cart Functionality; core-js; Open Graph; Priority Hints; Emotion; Google Maps; reCAPTCHA; Microsoft 365; reCAPTCHA Enterprise,,Collected with JavaScript browser fallback,38920,2026-11-19T16:21:08.048Z
+amaronbattery.in,http://amaronbattery.in/,detected,200,jQuery; LiteSpeed; PHP; Google Analytics,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://amaronbattery.in/
+Call log:
+[2m  - navigating to ""https://amaronbattery.in/"", waiting until ""domcontentloaded""[22m
+",42460,2026-11-19T16:21:17.939Z
+radxmobile.com,https://www.radxmobile.com/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Let's Encrypt; Lodash; Open Graph; Priority Hints; Wix eCommerce; Wix DNS; Google Workspace,,Collected with JavaScript browser fallback,16805,2026-11-19T16:20:56.361Z
+2-com.net,https://2-com.net/,detected,200,Google Analytics; Zoho SalesIQ; DigiCert; HSTS; core-js; Google Font API; Open Graph; Zoho PageSense; AngularJS; cdnjs; Nginx; Osano; Azure; Mailgun; Microsoft 365; Zoho,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://2-com.net/"", waiting until ""domcontentloaded""[22m
+",52890,2026-11-19T16:21:49.251Z
+3bsexcavating.com,https://3bsexcavating.com/,detected,200,WordPress; Cloudflare; Google Tag Manager; jQuery; FitVids.JS; Cloudflare Bot Management; cdnjs; Divi; Font Awesome; Google Publisher Tag; HSTS; HTTP/3; jQuery Migrate; jQuery Mobile; Let's Encrypt; WP Engine; Yoast SEO; Google Analytics; Google Font API; Google Maps; Open Graph; Priority Hints; RSS; UserWay; WPForms; Mailcheck; punycode; reCAPTCHA; Smush Pro,,Collected with JavaScript browser fallback,38122,2026-11-19T16:21:46.170Z
+weissbauchpapageien.de,https://p2-1.afp24.net/true1.php?id=weis44j4dh3o49xk,detected,403,Cloudflare; HTTP/3; PHP,,Browser fallback failed: page.content: Unable to retrieve content because the page is navigating and changing the content.,5068,2026-11-19T16:09:10.909Z
+959marine.com,https://www.959marine.com/,detected,200,Cloudflare; jQuery; Cloudflare Bot Management; reCAPTCHA; Weebly; core-js; FancyBox; Google Maps; MediaElement.js; Open Graph; Snowplow Analytics; VideoJS; Google Workspace,,Collected with JavaScript browser fallback,33786,2026-11-19T16:21:51.725Z
+hansis-knusperhendl-foodtruck.eatbu.com,https://hansis-knusperhendl-foodtruck.eatbu.com/,detected,403,Google Cloud CDN; HSTS; HTTP/3,,Collected with JavaScript browser fallback,5063,2026-11-19T16:21:23.425Z
+broganlmt.com,https://www.broganlmt.com/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Let's Encrypt; Lodash; Cart Functionality; Open Graph; Priority Hints; Wix eCommerce; RequireJS; Wix DNS; Google Workspace,,Collected with JavaScript browser fallback,12260,2026-11-19T16:21:35.685Z
+juanmunozhomesmart.com,https://www.juanmunozhomesmart.com/,detected,403,Akamai; Akamai Bot Manager; HSTS; Let's Encrypt; Amazon Route 53; Amazon Web Services,,Collected with JavaScript browser fallback,13719,2026-11-19T16:21:49.404Z
+buchhaltungsservice-koenig.de,https://buchhaltungsservice-koenig.de/,detected,200,WordPress; jQuery; Apache HTTP Server; Catch Themes Catch Box; jQuery Migrate; PHP; Sectigo; UNIX; WordPress Block Editor; Elementor; Preact; Priority Hints; RSS; Twitter Emoji (Twemoji); Microsoft 365; Strato,,Collected with JavaScript browser fallback,22650,2026-11-19T16:22:08.821Z
+solvos.nl,https://www.solvos.nl/nl/,detected,200,Cloudflare; HSTS; HTTP/3; Astro; Open Graph; Cloudflare DNS; Microsoft 365,,Collected with JavaScript browser fallback,8292,2026-11-19T16:21:57.543Z
+261welfarefund.com,https://www.261welfarefund.com/,detected,200,WordPress; Cloudflare; Cloudflare Bot Management; HTTP/3; Let's Encrypt; prettyPhoto; WP Engine; Google Font API; RSS; Twitter Emoji (Twemoji); Cloudflare DNS; Microsoft 365,,Collected with JavaScript browser fallback,13783,2026-11-19T16:22:03.187Z
+costa-coffee.be,https://www.costa-coffee.be/,detected,200,Google Tag Manager; Akamai; Akamai Bot Manager; Akamai mPulse; HSTS; Let's Encrypt; OneTrust; Akamai DNS,,"Browser fallback failed: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at http://costa-coffee.be/
+Call log:
+[2m  - navigating to ""http://costa-coffee.be/"", waiting until ""domcontentloaded""[22m
+",3449,2026-11-19T16:09:18.807Z
+startravelcompany.com,,failed,,GoDaddy DNS; GoDaddy; Google Workspace,HTTPS and HTTP failed for startravelcompany.com,"Browser fallback failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""http://startravelcompany.com/"", waiting until ""domcontentloaded""[22m
+",36855,2026-11-19T16:09:52.408Z
+disinfestazioniepiscine.it,https://disinfestazioniepiscine.it/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,5805,2026-11-19T16:22:03.348Z
+lscms.org,https://lscms.org/,detected,200,WordPress; jQuery; Elementor; imagesLoaded; Bootstrap; Apache HTTP Server; Contact Form 7; jQuery Migrate; Let's Encrypt; Swiper; WordPress Block Editor; core-js; Lightbox; Priority Hints; RSS; Twitter Emoji (Twemoji); Cart Functionality; PHP; Select2; Essential Blocks; Google Workspace; Essential Addons for Elementor; Paid Memberships Pro,,Collected with JavaScript browser fallback,45419,2026-11-19T16:22:48.605Z
+3dwealthadvisory.com,https://3dwealthadvisory.com/,detected,200,WordPress; Cloudflare; jQuery; FitVids.JS; Web Font Loader; Cloudflare Bot Management; Divi; GoDaddy CoBlocks; HTTP/3; jQuery Migrate; Koko Analytics; Swiper; Three.js; anime.js; Google Font API; RSS; Google Maps; Priority Hints,,Collected with JavaScript browser fallback,30719,2026-11-19T16:22:34.068Z
+jackwills.com,https://www.jackwills.com/,detected,200,Google Tag Manager; Next.js; Akamai; Akamai Bot Manager; HSTS; Vercel; Microsoft 365; Sendgrid,,"Browser fallback failed: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at http://jackwills.com/
+Call log:
+[2m  - navigating to ""http://jackwills.com/"", waiting until ""domcontentloaded""[22m
+",5913,2026-11-19T16:09:25.566Z
+nevsproductions.com,,failed,,Strato,HTTPS and HTTP failed for nevsproductions.com,"Browser fallback failed: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at http://nevsproductions.com/
+Call log:
+[2m  - navigating to ""http://nevsproductions.com/"", waiting until ""domcontentloaded""[22m
+",2627,2026-11-19T16:09:23.774Z
+kande-hoikuen.ed.jp,https://kande-hoikuen.ed.jp/,detected,200,jQuery; Google Hosted Libraries; Let's Encrypt; Nginx; core-js; Google Maps; Sakura Internet,,Collected with JavaScript browser fallback,50511,2026-11-19T16:23:00.425Z
+orifoodsco.com,https://www.orifoodsco.com/,detected,200,HSTS; Let's Encrypt; Squarespace; Squarespace Commerce; Stimulus; Typekit; Cart Functionality; core-js; Open Graph; Priority Hints; Emotion; Google Workspace,,Collected with JavaScript browser fallback,14060,2026-11-19T16:22:24.687Z
+deerfieldbeachautomall.com,https://deerfieldbeachautomall.com/,detected,403,Google Tag Manager; Akamai Bot Manager; HSTS; jQuery UI; Let's Encrypt; Module Federation; Nginx; React; React Redux; Redux; reCAPTCHA; web-vitals,,Collected with JavaScript browser fallback,9443,2026-11-19T16:22:34.130Z
+insieme.stanford.edu,https://insieme.stanford.edu/,detected,200,Google Analytics; jQuery; Acquia Cloud Platform; Acquia Cloud Site Factory; DigiCert; Drupal; Drupal Multisite; HSTS; cdnjs; core-js; Font Awesome; Open Graph; Siteimprove,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://insieme.stanford.edu/"", waiting until ""domcontentloaded""[22m
+",58015,2026-11-19T16:23:32.083Z
+layer7innovations.ca,https://layer7innovations.ca/,detected,200,Cloudflare; HTTP/3; Cloudflare DNS; Google Workspace,,Collected with JavaScript browser fallback,4792,2026-11-19T16:22:38.922Z
+makpharma-eg.com,https://makpharma-eg.com/,detected,200,GoDaddy Website Builder; HSTS; Open Graph; PWA; RequireJS; GoDaddy DNS; GoDaddy Email; GoDaddy,,Collected with JavaScript browser fallback,20759,2026-11-19T16:22:59.681Z
+ejc-courtage-assurances.fr,https://ejc-courtage-assurances.fr/,detected,200,jQuery; Apache HTTP Server; Let's Encrypt; PHP; Bootstrap; PWA; Swiper; OVHcloud,,Collected with JavaScript browser fallback,15743,2026-11-19T16:23:04.349Z
+ferrateoxidant.com,https://ferrateoxidant.com/,detected,200,Let's Encrypt; OpenResty; GoDaddy DNS; GoDaddy,,Collected with JavaScript browser fallback,6887,2026-11-19T16:23:06.568Z
+oakwell.vet,https://oakwell.vet/,detected,200,WordPress; Google Tag Manager; Google Analytics; jQuery; Beaver Builder; jQuery Migrate; Let's Encrypt; Nginx; Rich Plugins Reviews; Yoast SEO; YouTube; core-js; Facebook Pixel; Formidable Form; Google Font API; Open Graph; RSS; Segment; Twitter Emoji (Twemoji); imagesLoaded; Akismet; Google Maps; reCAPTCHA; Microsoft 365; Formidable Forms,,Collected with JavaScript browser fallback,43986,2026-11-19T16:23:44.411Z
+mysterion.hr,https://mysterion.hr/,detected,200,Cloudflare; HTTP/3; Cloudflare DNS,,Collected with JavaScript browser fallback,4658,2026-11-19T16:23:09.007Z
+howellmotors.com,https://www.howellmotors.com/,detected,200,Google Tag Manager; Akamai Bot Manager; HSTS; jQuery UI; Let's Encrypt; Module Federation; Nginx; React; React Redux; Redux; reCAPTCHA; web-vitals; Microsoft 365,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://howellmotors.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://howellmotors.com/"", waiting until ""domcontentloaded""[22m
+",6437,2026-11-19T16:09:42.542Z
+lorenz-baumarkt.de,https://www.lorenz-baumarkt.de/,detected,200,Google Analytics; Apache HTTP Server; Let's Encrypt; Shopware; Stimulus; Cart Functionality; Open Graph; PayPal; Trusted Shops; ALL-INKL; Microsoft 365,,Collected with JavaScript browser fallback,16632,2026-11-19T16:23:25.298Z
+eclairage-solaire-occitanie.com,https://eclairage-solaire-occitanie.com/,detected,404,Wix; Let's Encrypt; Cloudflare; Cloudflare Bot Management; HSTS; HTTP/3; Wix DNS,,Collected with JavaScript browser fallback,5937,2026-11-19T16:23:14.944Z
+cmc01village.com,https://cmc01village.com/lander,detected,200,GoDaddy Parking; Amazon ALB; core-js; OpenResty,,Collected with JavaScript browser fallback,12915,2026-11-19T16:23:27.859Z
+maiquotes.net,,failed,,,HTTPS and HTTP failed for maiquotes.net,"Browser fallback failed: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at http://maiquotes.net/
+Call log:
+[2m  - navigating to ""http://maiquotes.net/"", waiting until ""domcontentloaded""[22m
+",1778,2026-11-19T16:09:45.550Z
+cmresolutions.com,http://cmresolutions.com/,detected,200,Apache HTTP Server; Microsoft Word,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://cmresolutions.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://cmresolutions.com/"", waiting until ""domcontentloaded""[22m
+",1604,2026-11-19T16:09:45.917Z
+wglchurch.com,,failed,,,HTTPS and HTTP failed for wglchurch.com,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://wglchurch.com/
+Call log:
+[2m  - navigating to ""http://wglchurch.com/"", waiting until ""domcontentloaded""[22m
+",79,2026-11-19T16:09:45.628Z
+nwmotorinn.com,,failed,,,HTTPS and HTTP failed for nwmotorinn.com,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://nwmotorinn.com/
+Call log:
+[2m  - navigating to ""http://nwmotorinn.com/"", waiting until ""domcontentloaded""[22m
+",74,2026-11-19T16:09:45.702Z
+dorpsbelangen.nu,https://www.dorpsbelangen.nu/,detected,200,WordPress; jQuery; Apache HTTP Server; Contact Form 7; jQuery Migrate; Let's Encrypt; Moment.js; OWL Carousel; PHP; reCAPTCHA; Varnish; WordPress Block Editor; Font Awesome; Google Font API; Priority Hints; RSS; Really Simple SSL & Security; Twitter Emoji (Twemoji); One.com; Burst Statistics,,Collected with JavaScript browser fallback,34039,2026-11-19T16:24:02.246Z
+littlerockafamily.de,,failed,,,HTTPS and HTTP failed for littlerockafamily.de,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://littlerockafamily.de/
+Call log:
+[2m  - navigating to ""http://littlerockafamily.de/"", waiting until ""domcontentloaded""[22m
+",15,2026-11-19T16:09:45.932Z
+evelynanders.com,https://evelynanders.com/,detected,403,Apache HTTP Server; Let's Encrypt; PHP; UNIX; Varnish; Amazon ELB; Google Workspace,,Collected with JavaScript browser fallback,14495,2026-11-19T16:23:46.578Z
+domekvefaru.com,https://www.domekvefaru.com/,detected,200,Google Tag Manager; Let's Encrypt; PHP; WebNode; Google Font API; Open Graph; Priority Hints,,Collected with JavaScript browser fallback,25540,2026-11-19T16:23:57.697Z
+sdmdjentertainment.com,https://sdmdjentertainment.com/,detected,200,GoDaddy Website Builder; HSTS; Cloudflare; Cloudflare Bot Management; Open Graph; PWA; PayPal; Vimeo; reCAPTCHA; WhatsApp Business Chat; GoDaddy DNS; GoDaddy,,Collected with JavaScript browser fallback,29515,2026-11-19T16:24:13.926Z
+ideenhunger.com,https://www.ideenhunger.com/,detected,200,Cloudflare; Google Tag Manager; Google Analytics; Etracker; Google Ads Conversion Tracking; HSTS; HTTP/3; Linkedin Insight Tag; ProvenExpert; Usercentrics; YouTube; core-js; Open Graph; Webflow; Friendly Captcha,,Collected with JavaScript browser fallback,37303,2026-11-19T16:24:23.881Z
+jenniferbacksteininteriors.com,https://www.jenniferbacksteininteriors.com/,detected,200,HSTS; Let's Encrypt; Squarespace; Squarespace Commerce; Stimulus; Cart Functionality; core-js; Open Graph; Priority Hints; Emotion; Microsoft 365,,Collected with JavaScript browser fallback,49711,2026-11-19T16:24:47.409Z
+elcolegiocongresosyrestaurante.com,https://elcolegiocongresosyrestaurante.com/,detected,200,Akamai Web Application Protector; Let's Encrypt; Nginx; Xserver,,Collected with JavaScript browser fallback,26760,2026-11-19T16:24:29.006Z
+northshoremacnut.com,https://www.northshoremacnut.com/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Lodash; Google Analytics; Google Ads Conversion Tracking; Open Graph; Priority Hints; Swiper; Wix eCommerce; Wix DNS; Apple iCloud Mail,,Collected with JavaScript browser fallback,26311,2026-11-19T16:24:40.238Z
+powercleaning.services,https://powercleaning.services/,detected,200,WordPress; Google Analytics; jQuery; Let's Encrypt; Nginx; Yoast SEO; Cloudflare; Cloudflare Bot Management; Google Font API; Open Graph; PWA; RSS; Responsive Lightbox & Gallery; Twitter Emoji (Twemoji); SiteGround; Responsive Lightbox,,Collected with JavaScript browser fallback,43948,2026-11-19T16:25:07.830Z
+stoperbis.pl,https://stoperbis.pl/,detected,200,Google Analytics; jQuery; Apache HTTP Server,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://stoperbis.pl/"", waiting until ""domcontentloaded""[22m
+",42367,2026-11-19T16:25:11.373Z
+verticalcommunitychurch.com,,failed,,,HTTPS and HTTP failed for verticalcommunitychurch.com,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://verticalcommunitychurch.com/
+Call log:
+[2m  - navigating to ""http://verticalcommunitychurch.com/"", waiting until ""domcontentloaded""[22m
+",85,2026-11-19T16:10:02.279Z
+gitesducharmois.fr,https://www.gitesducharmois.fr/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Let's Encrypt; Lodash; Open Graph; Priority Hints; RequireJS; Wix eCommerce; Wix DNS,,Collected with JavaScript browser fallback,16829,2026-11-19T16:25:04.238Z
+allegrocreditbeta.com,https://www.synchrony.com/help/faqs?tab=cc-fin#allegro-transition-to-synchrony-pay-later,detected,403,jQuery; Akamai; Akamai Bot Manager; Akamai mPulse; DigiCert; Dynamic Yield; HSTS; Handlebars; Oracle Dynamic Monitoring Service; Akamai DNS; Mailchimp,,Collected with JavaScript browser fallback,5489,2026-11-19T16:24:53.073Z
+hoffmaninstitute.co.uk,https://hoffmaninstitute.co.uk/,detected,200,Cloudflare; HTTP/3; Let's Encrypt; Cloudflare DNS; Google Workspace,,Collected with JavaScript browser fallback,39403,2026-11-19T16:25:32.476Z
+a3sec.com,https://a3sec.com/,detected,200,Cloudflare; Google Tag Manager; Google Analytics; jQuery; Cloudflare Bot Management; HSTS; HTTP/3; HubSpot CMS Hub; jQuery Migrate; jsDelivr; Linkedin Ads; core-js; Google Font API; Hotjar; HubSpot; HubSpot Analytics; HubSpot Cookie Policy Banner; Open Graph; Priority Hints; Linkedin Sign-in; RSS; Twitter; Twitter Ads; Cloudflare DNS; Google Workspace; Salesforce,,Collected with JavaScript browser fallback,26367,2026-11-19T16:25:30.605Z
+concrete-fitness.edan.io,https://concrete-fitness.edan.io/,detected,403,Cloudflare; AngularJS; Cloudflare Turnstile,,Collected with JavaScript browser fallback,5583,2026-11-19T16:25:13.412Z
+nicholsonchiro.com,https://nicholsonchiro.com/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,5365,2026-11-19T16:25:16.738Z
+la-residenza-del-principe-rome-it.booked.net,https://la-residenza-del-principe-rome-it.booked.net/,detected,404,Cloudflare; HTTP/3,,Collected with JavaScript browser fallback,3975,2026-11-19T16:25:17.388Z
+jonesbuickgmc.com,https://jonesbuickgmc.com/,detected,200,Cloudflare; Google Analytics; AMP; Adobe Experience Manager; Akamai mPulse; Cloudflare Browser Insights; Google Maps; HTTP/3; Let's Encrypt; Cart Functionality; core-js; Open Graph; Pinterest Ads; RTB House; Swiper; Cloudflare DNS,,Collected with JavaScript browser fallback,23562,2026-11-19T16:25:40.300Z
+xn--jobvrkstedet-9cb.nu,https://xn--jobvrkstedet-9cb.nu/,detected,200,WordPress; jQuery; Bootstrap; jQuery Migrate; Let's Encrypt; W3 Total Cache; Font Awesome; Google Font API; RSS,,Collected with JavaScript browser fallback,13677,2026-11-19T16:25:31.065Z
+appelpsychotherapy.com,https://www.appelpsychotherapy.com/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Let's Encrypt; Lodash; Google Analytics; Google Ads Conversion Tracking; Open Graph; Priority Hints; RequireJS; Wix eCommerce; Wix DNS; Google Workspace,,Collected with JavaScript browser fallback,18186,2026-11-19T16:25:48.791Z
+brucebournesold.com,https://www.brucebournesold.com/,detected,403,Akamai; Akamai Bot Manager; HSTS; Let's Encrypt; Amazon Route 53; Amazon Web Services,,Collected with JavaScript browser fallback,3242,2026-11-19T16:25:34.307Z
+pcb-cpb.com,https://www.pcb-cpb.com/,detected,200,Cloudflare; Wix; Cloudflare Bot Management; HSTS; HTTP/3; Lodash; Open Graph; Priority Hints; RSS; Wix DNS,,Collected with JavaScript browser fallback,30896,2026-11-19T16:26:03.372Z
+chiantifiorentino.it,https://www.chiantifiorentino.it/web/,detected,200,Google Tag Manager; jQuery; Bootstrap; FancyBox; IIS; jQuery UI; Leaflet; Let's Encrypt; Microsoft ASP.NET; OWL Carousel; Plesk; Slick; Snowplow Analytics; SweetAlert2; Animate.css; Google Font API; Open Graph; YouTube; Aruba.it,,Collected with JavaScript browser fallback,53485,2026-11-19T16:26:27.792Z
+11thhourracing.org,https://11thhourracing.org/,detected,200,Cloudflare; Google Tag Manager; HSTS; HTTP/3; jsDelivr; Webflow; AccessiBe; CookieYes; core-js; Facebook Pixel; GSAP; Microsoft Clarity; Open Graph; Priority Hints; Swiper; cdnjs; List.js; GoDaddy DNS; DocuSign; GoDaddy; Google Workspace; Salesforce,,Collected with JavaScript browser fallback,40499,2026-11-19T16:26:20.800Z
+miratrade.com.tr,https://miratrade.com.tr/,detected,200,Cloudflare; HTTP/3; Cloudflare DNS,,Collected with JavaScript browser fallback,18687,2026-11-19T16:26:07.478Z
+freo.com.au,https://freo.com.au/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,7406,2026-11-19T16:26:10.778Z
+fluxar.com.ar,https://www.fluxar.com.ar/,detected,200,WordPress; Google Analytics; jQuery; Morphext; sidr; All in One SEO; Contact Form 7; HTTP/3; Hostinger; jQuery Migrate; Let's Encrypt; LiteSpeed; Modernizr; MonsterInsights; PHP; reCAPTCHA; SiteOrigin Page Builder; SiteOrigin Widgets Bundle; TinyMCE; core-js; Font Awesome; Google Font API; Open Graph; Priority Hints; RSS; Really Simple SSL & Security; jQuery Colorbox,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://fluxar.com.ar/"", waiting until ""domcontentloaded""[22m
+",71437,2026-11-19T16:27:18.916Z
+redpants.jp,https://www.redpants.jp/,detected,200,HSTS; Let's Encrypt; Squarespace; Squarespace Commerce; Stimulus; Typekit; Cart Functionality; core-js; Open Graph; Priority Hints; reCAPTCHA; Emotion; WordPress; Cloudflare; jQuery; Cloudflare Bot Management; Google Font API; HTTP/3; jQuery Migrate; jQuery UI; Kadence WP Kadence; RSS; WP Engine; WooCommerce; WordPress Block Editor; jQuery BlockUI; reCAPTCHA Enterprise,,Collected with JavaScript browser fallback,49261,2026-11-19T16:27:00.040Z
+bata.edu.hu,https://bata.edu.hu/,detected,200,Let's Encrypt; Nginx; Google Workspace,,Browser fallback failed: page.content: Unable to retrieve content because the page is navigating and changing the content.,616,2026-11-19T16:10:23.549Z
+3-energie-klaas.de,https://3-energie-klaas.de/,detected,200,Cloudflare; Cloudflare Bot Management; HSTS; HTTP/3; Open Graph; Strato,,Collected with JavaScript browser fallback,21181,2026-11-19T16:26:48.973Z
+labdemo.com,https://labdemo.com/,detected,200,WordPress; jQuery; HSTS; jQuery Migrate; jsDelivr; Let's Encrypt; Nginx; The SEO Framework; YouTube; Font Awesome; Google Font API; Open Graph; Priority Hints; Vimeo; Amazon Route 53; Amazon Web Services,,Collected with JavaScript browser fallback,42382,2026-11-19T16:27:10.268Z
+1ststopsupply.com,http://1ststopsupply.com/,detected,409,Cloudflare; GoDaddy DNS; GoDaddy; Microsoft 365,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://1ststopsupply.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://1ststopsupply.com/"", waiting until ""domcontentloaded""[22m
+",3778,2026-11-19T16:10:29.948Z
+celiabedilia.com,http://celiabedilia.com/,detected,200,Microsoft HTTPAPI; Nginx; Baidu Analytics (百度统计); F5 BigIP; Baidu Share,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://celiabedilia.com/"", waiting until ""domcontentloaded""[22m
+",45302,2026-11-19T16:27:34.799Z
+davidloeppke.com,https://davidloeppke.com/,detected,200,Google Analytics; HSTS; jQuery-pjax; Let's Encrypt; OpenResty; Ruby on Rails; Stimulus; Varnish; Google Font API; Open Graph; Priority Hints,,Collected with JavaScript browser fallback,27553,2026-11-19T16:27:27.593Z
+wrinkle-pei.cz,http://wrinkle-pei.cz/,detected,200,Nginx,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://wrinkle-pei.cz/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://wrinkle-pei.cz/"", waiting until ""domcontentloaded""[22m
+",722,2026-11-19T16:10:30.598Z
+koniczynka.info.pl,https://www.koniczynka.info.pl/,detected,200,WordPress; jQuery; FitVids.JS; Apache HTTP Server; Font Awesome; jQuery Migrate; jQuery Mobile; Site Kit; Swiper; W3 Total Cache; WooCommerce; Yoast SEO; CookieYes; Google Font API; MediaElement.js; Open Graph; Priority Hints; RSS; jQuery BlockUI; Popup Maker,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""https://koniczynka.info.pl/"", waiting until ""domcontentloaded""[22m
+",38690,2026-11-19T16:27:50.201Z
+footasylum.com,https://www.footasylum.com/,detected,200,Cloudflare; Next.js; Akamai; Akamai mPulse; Amazon S3; DigiCert; HSTS; Klarna Checkout; Apple iCloud Mail; UKFast,,"Browser fallback failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to ""http://footasylum.com/"", waiting until ""domcontentloaded""[22m
+",6053,2026-11-19T16:10:36.651Z
+2agateway.com,https://2agateway.com/,detected,200,WordPress; Cloudflare; parallax.js; Bricks; Cloudflare Bot Management; eWAY Payments; HTTP/3; Kinsta; Site Kit; Formidable Form; Open Graph; Priority Hints; RSS; RankMath SEO; jQuery; core-js; Cloudflare DNS; Formidable Forms,,Collected with JavaScript browser fallback,26048,2026-11-19T16:27:53.642Z
+ledestjernenstu.dk,https://ledestjernenstu.dk/,detected,200,WordPress; Google Tag Manager; jQuery; imagesLoaded; Bootstrap; WOW.js; Contact Form 7; jQuery Migrate; Let's Encrypt; OWL Carousel; prettyPhoto; Site Kit; WordPress Block Editor; Yoast SEO; Google Analytics; Google Font API; Open Graph; Priority Hints; RSS; Twitter Emoji (Twemoji); WP Fastest Cache; Google Maps; Apple iCloud Mail; Isotope,,Collected with JavaScript browser fallback,28419,2026-11-19T16:28:03.218Z
+1stlocksheathscouts.org.uk,https://1stlocksheathscouts.org.uk/,detected,200,Cloudflare; Cloudflare Bot Management; HTTP/3; WordPress; Endurance Page Cache; Font Awesome; Open Graph; Priority Hints; RSS; The Events Calendar; Twitter Emoji (Twemoji); WhatsApp Business Chat; Bluehost; Microsoft 365,,Collected with JavaScript browser fallback,26382,2026-11-19T16:28:16.584Z
+tamcconstruction.net,,failed,,,HTTPS and HTTP failed for tamcconstruction.net,"Browser fallback failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at http://tamcconstruction.net/
+Call log:
+[2m  - navigating to ""http://tamcconstruction.net/"", waiting until ""domcontentloaded""[22m
+",116,2026-11-19T16:10:34.058Z
+abbikadabbisbakingco.com,https://www.abbikadabbisbakingco.com/,detected,200,Cloudflare; Cloudflare Bot Management; HSTS; Weebly; core-js; Open Graph; PWA; Snowplow Analytics; VideoJS; Vue.js; Square,,Collected with JavaScript browser fallback,14703,2026-11-19T16:28:08.346Z
+herbalwise.ie,https://herbalwise.ie/,detected,200,Shopify; Cloudflare; F5 BigIP; HSTS; HTTP/3; Let's Encrypt; American Express; Apple Pay; Cart Functionality; core-js; Google Pay; Klarna Checkout; Mastercard; Open Graph; PayPal; Priority Hints; Shop Pay; Visa; RSS,,Collected with JavaScript browser fallback,40430,2026-11-19T16:28:34.142Z
+deepseass.com,https://www.deepseass.com/,detected,200,WordPress; jQuery; Apache HTTP Server; Contact Form 7; Google AdSense; jQuery Migrate; Let's Encrypt; PHP; Site Kit; SiteOrigin Page Builder; SiteOrigin Widgets Bundle; Twenty Seventeen; Yoast SEO; Google Maps; Open Graph; Polylang; Priority Hints; RSS; reCAPTCHA; Twitter Emoji (Twemoji); Google Font API; imagesLoaded,,Collected with JavaScript browser fallback,34450,2026-11-19T16:28:37.668Z
+aardvarkelectriccorp.com,http://aardvarkelectriccorp.com/,detected,409,Cloudflare; GoDaddy DNS; GoDaddy,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://aardvarkelectriccorp.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://aardvarkelectriccorp.com/"", waiting until ""domcontentloaded""[22m
+",1905,2026-11-19T16:10:42.746Z
+needaphysio.com,https://www.needaphysio.com/,detected,200,Cloudflare; Cloudflare Bot Management; HSTS; HTTP/3; Google Font API; WhatsApp Business Chat; Wix DNS,,Collected with JavaScript browser fallback,8422,2026-11-19T16:28:17.504Z
+thomasrosenbaum.com,https://www.thomasrosenbaum.com/,detected,200,HSTS; Let's Encrypt; Squarespace; Squarespace Commerce; Stimulus; Typekit; Cart Functionality; core-js; Open Graph; Priority Hints; Emotion; reCAPTCHA; reCAPTCHA Enterprise,,Collected with JavaScript browser fallback,38190,2026-11-19T16:28:54.774Z
+100wwcstlw.org,https://100wwcstlw.org/,detected,200,Cloudflare; Cloudflare Bot Management; HSTS; HTTP/3; Open Graph,,Collected with JavaScript browser fallback,29185,2026-11-19T16:28:46.689Z
+shapirolawfirm.com,http://shapirolawfirm.com/,detected,200,Apache HTTP Server; GoDaddy DNS; GoDaddy,,"Collected with JavaScript browser fallback; HTTPS browser navigation failed: page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://shapirolawfirm.com/
+Call log:
+[2m  - navigating to ""https://shapirolawfirm.com/"", waiting until ""domcontentloaded""[22m
+",7187,2026-11-19T16:28:41.330Z
+joseph-herber.business.site,https://joseph-herber.business.site/,detected,404,Google My Business; HTTP/3,,Collected with JavaScript browser fallback,3910,2026-11-19T16:28:41.579Z
+arol.cl,https://arol.cl/,detected,200,DoubleClick Ad Exchange (AdX); Google AdSense; Let's Encrypt; Nginx,,Collected with JavaScript browser fallback,21985,2026-11-19T16:29:03.315Z
+sindacatobadanti.it,https://www.sindacatobadanti.it/,detected,503,WordPress; jQuery; HTTP/3; jQuery Migrate; Bunny Fonts; Open Graph; WebFactory Maintenance; Aruba.it,,Collected with JavaScript browser fallback,15639,2026-11-19T16:28:57.218Z
+1stclairavewest.com,http://1stclairavewest.com/,detected,409,Cloudflare; GoDaddy DNS; GoDaddy,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://1stclairavewest.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://1stclairavewest.com/"", waiting until ""domcontentloaded""[22m
+",494,2026-11-19T16:10:50.540Z
+lighthouseprc.org,https://lighthouseprc.org/,detected,200,WordPress; Google Tag Manager; Google Analytics; Apache HTTP Server; Endurance Page Cache; HSTS; Let's Encrypt; Slider Revolution; WP Rocket; wpBakery; Yoast SEO; Azure; Font Awesome; Google Font API; Open Graph; Priority Hints; RSS; Google Maps; jsDelivr; Cloudflare DNS; Mailgun; Microsoft 365; Widget Options,,Collected with JavaScript browser fallback,37639,2026-11-19T16:29:24.898Z
+5rcircleprocess.weebly.com,https://5rcircleprocess.weebly.com/,detected,200,Cloudflare; jQuery; Cloudflare Bot Management; Google Hosted Libraries; Let's Encrypt; reCAPTCHA; Weebly; FancyBox; Google Font API; MediaElement.js; Open Graph; VideoJS; core-js; Snowplow Analytics; YouTube,,Collected with JavaScript browser fallback,15266,2026-11-19T16:29:10.040Z
+unitedveterinaryservice.com,https://unitedveterinaryservice.com/,detected,200,WordPress; jQuery; Magnific Popup; Contact Form 7; jQuery Migrate; LiteSpeed; Litespeed Cache; PHP; Sectigo; Slick; Google Font API; Priority Hints; RSS; Twitter Emoji (Twemoji); GoDaddy DNS; GoDaddy; Microsoft 365,,Collected with JavaScript browser fallback,39997,2026-11-19T16:29:37.215Z
+construccionesyatecnicas.com,http://construccionesyatecnicas.com/,detected,200,jQuery; Nginx; Plesk; SWFObject; IONOS,,"HTTPS failed; used HTTP: fetch failed; Browser fallback failed: page.goto: Navigation to ""http://construccionesyatecnicas.com/"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+[2m  - navigating to ""http://construccionesyatecnicas.com/"", waiting until ""domcontentloaded""[22m
+",2455,2026-11-19T16:10:55.973Z
+joburgheritage.org.za,https://joburgheritage.org.za/,detected,200,Apache HTTP Server; Let's Encrypt,,Collected with JavaScript browser fallback,6586,2026-11-19T16:29:11.618Z
+bfnelson.it,https://bfnelson.it/,detected,200,Let's Encrypt; OpenResty,,Collected with JavaScript browser fallback,4423,2026-11-19T16:29:14.463Z
+rivithead.com,https://www.rivithead.com/,detected,200,Apache HTTP Server; HSTS; Sectigo; Cart Functionality; Matomo Analytics; Open Graph; Priority Hints; Swiper; jQuery; Google Hosted Libraries; Amazon Route 53; Amazon Web Services,,Collected with JavaScript browser fallback,22949,2026-11-19T16:29:34.568Z

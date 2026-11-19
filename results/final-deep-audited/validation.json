@@ -1,0 +1,2014 @@
+{
+  "generatedAt": "2026-11-19T20:38:59.318Z",
+  "methodology": {
+    "baseline": "ProjectDiscovery httpx 1.12.0 technology detection",
+    "agreementMeaning": "Both engines named the same normalized technology on the same domain.",
+    "limitation": "Agreement increases confidence but does not prove ground truth; disagreement is not a false positive."
+  },
+  "totals": {
+    "detections": 2078,
+    "comparableDetections": 2062,
+    "independentlyCorroborated": 848,
+    "agreementPercent": 41.1,
+    "projectOnly": 1214,
+    "detectionsOutsideBaselineDomains": 16
+  },
+  "projectOnlyByTechnology": [
+    {
+      "technology": "Let's Encrypt",
+      "count": 109
+    },
+    {
+      "technology": "Open Graph",
+      "count": 83
+    },
+    {
+      "technology": "Priority Hints",
+      "count": 57
+    },
+    {
+      "technology": "Google Font API",
+      "count": 50
+    },
+    {
+      "technology": "RSS",
+      "count": 47
+    },
+    {
+      "technology": "core-js",
+      "count": 43
+    },
+    {
+      "technology": "Google Maps",
+      "count": 26
+    },
+    {
+      "technology": "GoDaddy",
+      "count": 25
+    },
+    {
+      "technology": "GoDaddy DNS",
+      "count": 25
+    },
+    {
+      "technology": "Microsoft 365",
+      "count": 25
+    },
+    {
+      "technology": "reCAPTCHA",
+      "count": 25
+    },
+    {
+      "technology": "Twitter Emoji (Twemoji)",
+      "count": 23
+    },
+    {
+      "technology": "Google Workspace",
+      "count": 22
+    },
+    {
+      "technology": "Cloudflare DNS",
+      "count": 19
+    },
+    {
+      "technology": "Google Analytics",
+      "count": 17
+    },
+    {
+      "technology": "Cart Functionality",
+      "count": 14
+    },
+    {
+      "technology": "Font Awesome",
+      "count": 14
+    },
+    {
+      "technology": "OpenResty",
+      "count": 14
+    },
+    {
+      "technology": "Swiper",
+      "count": 14
+    },
+    {
+      "technology": "jQuery",
+      "count": 12
+    },
+    {
+      "technology": "Akamai Bot Manager",
+      "count": 10
+    },
+    {
+      "technology": "DigiCert",
+      "count": 10
+    },
+    {
+      "technology": "Google Tag Manager",
+      "count": 10
+    },
+    {
+      "technology": "Wix DNS",
+      "count": 10
+    },
+    {
+      "technology": "Snowplow Analytics",
+      "count": 9
+    },
+    {
+      "technology": "Elementor Pro",
+      "count": 8
+    },
+    {
+      "technology": "jQuery Migrate",
+      "count": 8
+    },
+    {
+      "technology": "WhatsApp Business Chat",
+      "count": 8
+    },
+    {
+      "technology": "Amazon Route 53",
+      "count": 7
+    },
+    {
+      "technology": "Apple iCloud Mail",
+      "count": 7
+    },
+    {
+      "technology": "Emotion",
+      "count": 7
+    },
+    {
+      "technology": "MediaElement.js",
+      "count": 7
+    },
+    {
+      "technology": "PWA",
+      "count": 7
+    },
+    {
+      "technology": "WordPress",
+      "count": 7
+    },
+    {
+      "technology": "Akamai",
+      "count": 6
+    },
+    {
+      "technology": "Amazon Web Services",
+      "count": 6
+    },
+    {
+      "technology": "Bootstrap",
+      "count": 6
+    },
+    {
+      "technology": "cdnjs",
+      "count": 6
+    },
+    {
+      "technology": "Cloudflare Bot Management",
+      "count": 6
+    },
+    {
+      "technology": "jQuery UI",
+      "count": 6
+    },
+    {
+      "technology": "jsDelivr",
+      "count": 6
+    },
+    {
+      "technology": "YouTube",
+      "count": 6
+    },
+    {
+      "technology": "Cloudflare",
+      "count": 5
+    },
+    {
+      "technology": "Facebook Pixel",
+      "count": 5
+    },
+    {
+      "technology": "FancyBox",
+      "count": 5
+    },
+    {
+      "technology": "GSAP",
+      "count": 5
+    },
+    {
+      "technology": "Module Federation",
+      "count": 5
+    },
+    {
+      "technology": "Nginx",
+      "count": 5
+    },
+    {
+      "technology": "reCAPTCHA Enterprise",
+      "count": 5
+    },
+    {
+      "technology": "RequireJS",
+      "count": 5
+    },
+    {
+      "technology": "Sectigo",
+      "count": 5
+    },
+    {
+      "technology": "web-vitals",
+      "count": 5
+    },
+    {
+      "technology": "Wix eCommerce",
+      "count": 5
+    },
+    {
+      "technology": "Yoast SEO",
+      "count": 5
+    },
+    {
+      "technology": "Akamai DNS",
+      "count": 4
+    },
+    {
+      "technology": "Akamai mPulse",
+      "count": 4
+    },
+    {
+      "technology": "Astra",
+      "count": 4
+    },
+    {
+      "technology": "Cloudflare Turnstile",
+      "count": 4
+    },
+    {
+      "technology": "Contact Form 7",
+      "count": 4
+    },
+    {
+      "technology": "F5 BigIP",
+      "count": 4
+    },
+    {
+      "technology": "Google Ads Conversion Tracking",
+      "count": 4
+    },
+    {
+      "technology": "Gravity Forms",
+      "count": 4
+    },
+    {
+      "technology": "Hello Elementor",
+      "count": 4
+    },
+    {
+      "technology": "HSTS",
+      "count": 4
+    },
+    {
+      "technology": "Matomo Analytics",
+      "count": 4
+    },
+    {
+      "technology": "PayPal",
+      "count": 4
+    },
+    {
+      "technology": "RankMath SEO",
+      "count": 4
+    },
+    {
+      "technology": "React",
+      "count": 4
+    },
+    {
+      "technology": "React Redux",
+      "count": 4
+    },
+    {
+      "technology": "Redux",
+      "count": 4
+    },
+    {
+      "technology": "VideoJS",
+      "count": 4
+    },
+    {
+      "technology": "Vue.js",
+      "count": 4
+    },
+    {
+      "technology": "WordPress Block Editor",
+      "count": 4
+    },
+    {
+      "technology": "Animate.css",
+      "count": 3
+    },
+    {
+      "technology": "Aruba.it",
+      "count": 3
+    },
+    {
+      "technology": "Elementor",
+      "count": 3
+    },
+    {
+      "technology": "imagesLoaded",
+      "count": 3
+    },
+    {
+      "technology": "IONOS",
+      "count": 3
+    },
+    {
+      "technology": "jQuery BlockUI",
+      "count": 3
+    },
+    {
+      "technology": "Leaflet",
+      "count": 3
+    },
+    {
+      "technology": "Lightbox",
+      "count": 3
+    },
+    {
+      "technology": "Microsoft Clarity",
+      "count": 3
+    },
+    {
+      "technology": "Next.js",
+      "count": 3
+    },
+    {
+      "technology": "OVHcloud",
+      "count": 3
+    },
+    {
+      "technology": "PHP",
+      "count": 3
+    },
+    {
+      "technology": "Really Simple SSL & Security",
+      "count": 3
+    },
+    {
+      "technology": "Slick",
+      "count": 3
+    },
+    {
+      "technology": "Underscore.js",
+      "count": 3
+    },
+    {
+      "technology": "Vimeo",
+      "count": 3
+    },
+    {
+      "technology": "Webflow",
+      "count": 3
+    },
+    {
+      "technology": "WPForms",
+      "count": 3
+    },
+    {
+      "technology": "Zoho",
+      "count": 3
+    },
+    {
+      "technology": "AngularJS",
+      "count": 2
+    },
+    {
+      "technology": "anime.js",
+      "count": 2
+    },
+    {
+      "technology": "AOS",
+      "count": 2
+    },
+    {
+      "technology": "Apple Pay",
+      "count": 2
+    },
+    {
+      "technology": "Azure",
+      "count": 2
+    },
+    {
+      "technology": "Burst Statistics",
+      "count": 2
+    },
+    {
+      "technology": "CookieYes",
+      "count": 2
+    },
+    {
+      "technology": "DocuSign",
+      "count": 2
+    },
+    {
+      "technology": "Formidable Form",
+      "count": 2
+    },
+    {
+      "technology": "Formidable Forms",
+      "count": 2
+    },
+    {
+      "technology": "GoDaddy Email",
+      "count": 2
+    },
+    {
+      "technology": "Google Pay",
+      "count": 2
+    },
+    {
+      "technology": "Hostgator",
+      "count": 2
+    },
+    {
+      "technology": "HostGator DNS",
+      "count": 2
+    },
+    {
+      "technology": "HTTP/3",
+      "count": 2
+    },
+    {
+      "technology": "Linkedin Insight Tag",
+      "count": 2
+    },
+    {
+      "technology": "Mailcheck",
+      "count": 2
+    },
+    {
+      "technology": "Mailchimp",
+      "count": 2
+    },
+    {
+      "technology": "Mailgun",
+      "count": 2
+    },
+    {
+      "technology": "Max Mega Menu",
+      "count": 2
+    },
+    {
+      "technology": "Modern Events Calendar",
+      "count": 2
+    },
+    {
+      "technology": "Plyr",
+      "count": 2
+    },
+    {
+      "technology": "Polylang",
+      "count": 2
+    },
+    {
+      "technology": "Preact",
+      "count": 2
+    },
+    {
+      "technology": "punycode",
+      "count": 2
+    },
+    {
+      "technology": "Salesforce",
+      "count": 2
+    },
+    {
+      "technology": "Select2",
+      "count": 2
+    },
+    {
+      "technology": "Sendgrid",
+      "count": 2
+    },
+    {
+      "technology": "Sentry",
+      "count": 2
+    },
+    {
+      "technology": "SiteGround",
+      "count": 2
+    },
+    {
+      "technology": "Strato",
+      "count": 2
+    },
+    {
+      "technology": "Tailwind CSS",
+      "count": 2
+    },
+    {
+      "technology": "UserWay",
+      "count": 2
+    },
+    {
+      "technology": "W3 Total Cache",
+      "count": 2
+    },
+    {
+      "technology": "Web Font Loader",
+      "count": 2
+    },
+    {
+      "technology": "WordPress Multisite",
+      "count": 2
+    },
+    {
+      "technology": "WP Engine",
+      "count": 2
+    },
+    {
+      "technology": "WPBakery Page Builder",
+      "count": 2
+    },
+    {
+      "technology": "Xserver",
+      "count": 2
+    },
+    {
+      "technology": "AccessiBe",
+      "count": 1
+    },
+    {
+      "technology": "Acquia Cloud Platform",
+      "count": 1
+    },
+    {
+      "technology": "Adobe Experience Manager",
+      "count": 1
+    },
+    {
+      "technology": "Akismet",
+      "count": 1
+    },
+    {
+      "technology": "ALL-INKL",
+      "count": 1
+    },
+    {
+      "technology": "Amazon ALB",
+      "count": 1
+    },
+    {
+      "technology": "Amazon ELB",
+      "count": 1
+    },
+    {
+      "technology": "Amazon S3",
+      "count": 1
+    },
+    {
+      "technology": "American Express",
+      "count": 1
+    },
+    {
+      "technology": "Astro",
+      "count": 1
+    },
+    {
+      "technology": "Baidu Analytics (百度统计)",
+      "count": 1
+    },
+    {
+      "technology": "Baidu Share",
+      "count": 1
+    },
+    {
+      "technology": "Bluehost",
+      "count": 1
+    },
+    {
+      "technology": "Bluehost DNS",
+      "count": 1
+    },
+    {
+      "technology": "Bootstrap Icons",
+      "count": 1
+    },
+    {
+      "technology": "Bunny Fonts",
+      "count": 1
+    },
+    {
+      "technology": "Directorist",
+      "count": 1
+    },
+    {
+      "technology": "Divi",
+      "count": 1
+    },
+    {
+      "technology": "Endurance Page Cache",
+      "count": 1
+    },
+    {
+      "technology": "Essential Addons for Elementor",
+      "count": 1
+    },
+    {
+      "technology": "Essential Blocks",
+      "count": 1
+    },
+    {
+      "technology": "Fastly",
+      "count": 1
+    },
+    {
+      "technology": "FlexSlider",
+      "count": 1
+    },
+    {
+      "technology": "Flickity",
+      "count": 1
+    },
+    {
+      "technology": "Friendly Captcha",
+      "count": 1
+    },
+    {
+      "technology": "GoDaddy Parking",
+      "count": 1
+    },
+    {
+      "technology": "Google Cloud Storage",
+      "count": 1
+    },
+    {
+      "technology": "Google Hosted Libraries",
+      "count": 1
+    },
+    {
+      "technology": "Google My Business",
+      "count": 1
+    },
+    {
+      "technology": "Hostpoint",
+      "count": 1
+    },
+    {
+      "technology": "Hotjar",
+      "count": 1
+    },
+    {
+      "technology": "Htmx",
+      "count": 1
+    },
+    {
+      "technology": "HubSpot",
+      "count": 1
+    },
+    {
+      "technology": "HubSpot Analytics",
+      "count": 1
+    },
+    {
+      "technology": "HubSpot Cookie Policy Banner",
+      "count": 1
+    },
+    {
+      "technology": "Isotope",
+      "count": 1
+    },
+    {
+      "technology": "JetElements",
+      "count": 1
+    },
+    {
+      "technology": "JetMenu",
+      "count": 1
+    },
+    {
+      "technology": "JetPopup",
+      "count": 1
+    },
+    {
+      "technology": "JetTabs",
+      "count": 1
+    },
+    {
+      "technology": "JetThemeCore",
+      "count": 1
+    },
+    {
+      "technology": "jQuery Colorbox",
+      "count": 1
+    },
+    {
+      "technology": "Kadence Blocks",
+      "count": 1
+    },
+    {
+      "technology": "Kadence WP Kadence",
+      "count": 1
+    },
+    {
+      "technology": "Kinsta",
+      "count": 1
+    },
+    {
+      "technology": "Klarna Checkout",
+      "count": 1
+    },
+    {
+      "technology": "Koko Analytics",
+      "count": 1
+    },
+    {
+      "technology": "Linkedin Ads",
+      "count": 1
+    },
+    {
+      "technology": "Linkedin Sign-in",
+      "count": 1
+    },
+    {
+      "technology": "List.js",
+      "count": 1
+    },
+    {
+      "technology": "LottieFiles",
+      "count": 1
+    },
+    {
+      "technology": "Magento",
+      "count": 1
+    },
+    {
+      "technology": "Magnific Popup",
+      "count": 1
+    },
+    {
+      "technology": "Mailjet",
+      "count": 1
+    },
+    {
+      "technology": "Mastercard",
+      "count": 1
+    },
+    {
+      "technology": "Medallia",
+      "count": 1
+    },
+    {
+      "technology": "Microsoft ASP.NET",
+      "count": 1
+    },
+    {
+      "technology": "Mixpanel",
+      "count": 1
+    },
+    {
+      "technology": "Modernizr",
+      "count": 1
+    },
+    {
+      "technology": "Moment.js",
+      "count": 1
+    },
+    {
+      "technology": "MonsterInsights",
+      "count": 1
+    },
+    {
+      "technology": "One.com",
+      "count": 1
+    },
+    {
+      "technology": "OneTrust",
+      "count": 1
+    },
+    {
+      "technology": "Osano",
+      "count": 1
+    },
+    {
+      "technology": "OWL Carousel",
+      "count": 1
+    },
+    {
+      "technology": "Paid Memberships Pro",
+      "count": 1
+    },
+    {
+      "technology": "Pinterest Ads",
+      "count": 1
+    },
+    {
+      "technology": "Popup Maker",
+      "count": 1
+    },
+    {
+      "technology": "prettyPhoto",
+      "count": 1
+    },
+    {
+      "technology": "Redux Framework",
+      "count": 1
+    },
+    {
+      "technology": "Responsive Lightbox",
+      "count": 1
+    },
+    {
+      "technology": "Responsive Lightbox & Gallery",
+      "count": 1
+    },
+    {
+      "technology": "RTB House",
+      "count": 1
+    },
+    {
+      "technology": "Sakura Internet",
+      "count": 1
+    },
+    {
+      "technology": "Segment",
+      "count": 1
+    },
+    {
+      "technology": "Shop Pay",
+      "count": 1
+    },
+    {
+      "technology": "Simple Cloudflare Turnstile",
+      "count": 1
+    },
+    {
+      "technology": "Site Kit",
+      "count": 1
+    },
+    {
+      "technology": "Siteimprove",
+      "count": 1
+    },
+    {
+      "technology": "Slider Revolution",
+      "count": 1
+    },
+    {
+      "technology": "Smush Pro",
+      "count": 1
+    },
+    {
+      "technology": "Square",
+      "count": 1
+    },
+    {
+      "technology": "Svelte",
+      "count": 1
+    },
+    {
+      "technology": "Taboola",
+      "count": 1
+    },
+    {
+      "technology": "The Events Calendar",
+      "count": 1
+    },
+    {
+      "technology": "TimeWeb DNS",
+      "count": 1
+    },
+    {
+      "technology": "Tippy.js",
+      "count": 1
+    },
+    {
+      "technology": "toastr",
+      "count": 1
+    },
+    {
+      "technology": "Trusted Shops",
+      "count": 1
+    },
+    {
+      "technology": "Twenty Twenty-Four",
+      "count": 1
+    },
+    {
+      "technology": "Twitter",
+      "count": 1
+    },
+    {
+      "technology": "Twitter Ads",
+      "count": 1
+    },
+    {
+      "technology": "Typekit",
+      "count": 1
+    },
+    {
+      "technology": "UIKit",
+      "count": 1
+    },
+    {
+      "technology": "UKFast",
+      "count": 1
+    },
+    {
+      "technology": "Ultimate Addons for Elementor",
+      "count": 1
+    },
+    {
+      "technology": "Ultimate Addons for WPBakery",
+      "count": 1
+    },
+    {
+      "technology": "Umbraco",
+      "count": 1
+    },
+    {
+      "technology": "Unpkg",
+      "count": 1
+    },
+    {
+      "technology": "Varnish",
+      "count": 1
+    },
+    {
+      "technology": "VentraIP",
+      "count": 1
+    },
+    {
+      "technology": "Vercel",
+      "count": 1
+    },
+    {
+      "technology": "Visa",
+      "count": 1
+    },
+    {
+      "technology": "WebFactory Maintenance",
+      "count": 1
+    },
+    {
+      "technology": "Widget Options",
+      "count": 1
+    },
+    {
+      "technology": "WooCommerce",
+      "count": 1
+    },
+    {
+      "technology": "World4You",
+      "count": 1
+    },
+    {
+      "technology": "WOW.js",
+      "count": 1
+    },
+    {
+      "technology": "WP Fastest Cache",
+      "count": 1
+    },
+    {
+      "technology": "WP PageNavi",
+      "count": 1
+    },
+    {
+      "technology": "WP-PageNavi",
+      "count": 1
+    },
+    {
+      "technology": "Yandex Mail",
+      "count": 1
+    },
+    {
+      "technology": "Yandex.Metrika",
+      "count": 1
+    },
+    {
+      "technology": "Zendesk",
+      "count": 1
+    },
+    {
+      "technology": "Zoho PageSense",
+      "count": 1
+    },
+    {
+      "technology": "ZURB Foundation",
+      "count": 1
+    }
+  ],
+  "auditSample": [
+    {
+      "domain": "11thhourracing.org",
+      "technology": "AccessiBe",
+      "confidence": "probable",
+      "evidenceQuality": "indirect",
+      "evidence": [
+        {
+          "source": "js",
+          "key": "acsb",
+          "value": "[object Object]",
+          "strength": 2,
+          "pageUrl": "https://11thhourracing.org/"
+        },
+        {
+          "source": "js",
+          "key": "acsb",
+          "value": "[object Object]",
+          "strength": 2,
+          "pageUrl": "https://11thhourracing.org/terms-of-use"
+        },
+        {
+          "source": "js",
+          "key": "acsb",
+          "value": "[object Object]",
+          "strength": 2,
+          "pageUrl": "https://11thhourracing.org/goals/sustainable-maritime-innovation"
+        }
+      ]
+    },
+    {
+      "domain": "insieme.stanford.edu",
+      "technology": "Acquia Cloud Platform",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "header",
+          "key": "x-ah-environment",
+          "value": "01live",
+          "strength": 3,
+          "pageUrl": "https://insieme.stanford.edu/"
+        }
+      ]
+    },
+    {
+      "domain": "aida-cruises.at",
+      "technology": "Adobe Experience Manager",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/aida-component-library/clientlibs-demo/aida.datalayer.v1.min",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.componen",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.AC",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/core/wcm/components/tabs/v1/tabs/clientlibs/site.min.ACSHASH",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.m",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/core/wcm/components/form/text/v2/text/clientlibs/site.min.AC",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/aida-component-library/clientlibs/aida-component-library.gri",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "script",
+          "value": "https://aida-cruises.at/etc.clientlibs/aida-component-library/clientlibs/aida-component-library.com",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "html",
+          "value": " id=\"container-d3fa2f1f82\" class=\"cmp-container\">\n        \n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"experiencefragment ae",
+          "strength": 2,
+          "pageUrl": "https://aida-cruises.at/"
+        }
+      ]
+    },
+    {
+      "domain": "aida-cruises.at",
+      "technology": "Akamai",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "header",
+          "key": "x-akamai-transformed",
+          "value": "0 - 0 -",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        }
+      ]
+    },
+    {
+      "domain": "aida-cruises.at",
+      "technology": "Akamai Bot Manager",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "cookie",
+          "value": "ak_bmsc",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "cookie",
+          "value": "bm_sz",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        }
+      ]
+    },
+    {
+      "domain": "aida-cruises.at",
+      "technology": "Akamai DNS",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "a11-67.akam.net",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "a2-65.akam.net",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "a1-9.akam.net",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "a22-65.akam.net",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "a13-65.akam.net",
+          "strength": 3,
+          "pageUrl": "https://aida-cruises.at/"
+        }
+      ]
+    },
+    {
+      "domain": "allegrocreditbeta.com",
+      "technology": "Akamai mPulse",
+      "confidence": "probable",
+      "evidenceQuality": "indirect",
+      "evidence": [
+        {
+          "source": "html",
+          "value": "e.\">\r\n\t<link rel=\"preconnect\" href='https://api.syf.com'>\r\n\t<script>var env ='SYC_PROD-DEL';var envHost ='https://www.synchrony.com';var apiURL ='https://api.syf.com/v1/marketing/offers';var siteSearchURL ='https://www.synchrony.com/sitesea…",
+          "strength": 2,
+          "pageUrl": "https://www.synchrony.com/help/faqs?tab=cc-fin#allegro-transition-to-synchrony-pay-later"
+        }
+      ]
+    },
+    {
+      "domain": "oakwell.vet",
+      "technology": "Akismet",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "script",
+          "value": "https://oakwell.vet/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1787562146",
+          "strength": 3,
+          "pageUrl": "https://oakwell.vet/contact-us/"
+        }
+      ]
+    },
+    {
+      "domain": "lorenz-baumarkt.de",
+      "technology": "ALL-INKL",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "SOA",
+          "value": "ns5.kasserver.com",
+          "strength": 3,
+          "pageUrl": "https://www.lorenz-baumarkt.de/"
+        },
+        {
+          "source": "dns",
+          "key": "SOA",
+          "value": "hostmaster.kasserver.com",
+          "strength": 3,
+          "pageUrl": "https://www.lorenz-baumarkt.de/"
+        }
+      ]
+    },
+    {
+      "domain": "cmc01village.com",
+      "technology": "Amazon ALB",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "cookie",
+          "value": "AWSALBCORS",
+          "strength": 3,
+          "pageUrl": "https://cmc01village.com/lander"
+        }
+      ]
+    },
+    {
+      "domain": "evelynanders.com",
+      "technology": "Amazon ELB",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "header",
+          "key": "server",
+          "value": "awselb/2.0",
+          "strength": 3,
+          "pageUrl": "https://evelynanders.com/"
+        },
+        {
+          "source": "header",
+          "key": "server",
+          "value": "awselb/2.0",
+          "strength": 3,
+          "pageUrl": "https://www.evelynanders.com/"
+        }
+      ]
+    },
+    {
+      "domain": "brucebournesold.com",
+      "technology": "Amazon Route 53",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-137.awsdns-17.com",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-1766.awsdns-28.co.uk",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-959.awsdns-55.net",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-1225.awsdns-25.org",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        }
+      ]
+    },
+    {
+      "domain": "253media.com",
+      "technology": "Amazon S3",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "script",
+          "value": "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/GNLKQHE1976Q/reb2b.js.gz",
+          "strength": 3,
+          "pageUrl": "https://www.253media.com/"
+        },
+        {
+          "source": "script",
+          "value": "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/GNLKQHE1976Q/reb2b.js.gz",
+          "strength": 3,
+          "pageUrl": "https://www.253media.com/shopify/shopify-design-and-development-agency"
+        },
+        {
+          "source": "script",
+          "value": "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/GNLKQHE1976Q/reb2b.js.gz",
+          "strength": 3,
+          "pageUrl": "https://www.253media.com/shopify/shopify-plus-agency"
+        },
+        {
+          "source": "script",
+          "value": "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/GNLKQHE1976Q/reb2b.js.gz",
+          "strength": 3,
+          "pageUrl": "https://www.253media.com/shopify/shopify-cro-agency"
+        }
+      ]
+    },
+    {
+      "domain": "brucebournesold.com",
+      "technology": "Amazon Web Services",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-137.awsdns-17.com",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-1766.awsdns-28.co.uk",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-959.awsdns-55.net",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns-1225.awsdns-25.org",
+          "strength": 3,
+          "pageUrl": "https://www.brucebournesold.com/"
+        }
+      ]
+    },
+    {
+      "domain": "herbalwise.ie",
+      "technology": "American Express",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-american_express']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-american_express']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/collections/all"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-american_express']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/cart"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-american_express']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/products/millennium-gold"
+        }
+      ]
+    },
+    {
+      "domain": "2-com.net",
+      "technology": "AngularJS",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "html",
+          "value": "<!DOCTYPE html><html ng-app=\"ecommerceClient\" class=\"ng-scope\"><head><style type=\"text/c",
+          "strength": 2,
+          "pageUrl": "https://shop.2-com.net/#/start/login"
+        },
+        {
+          "source": "js",
+          "key": "angular",
+          "value": "[object Object]",
+          "strength": 3,
+          "pageUrl": "https://shop.2-com.net/#/start/login"
+        },
+        {
+          "source": "js",
+          "key": "angular.version.full",
+          "value": "1.3.20",
+          "strength": 3,
+          "pageUrl": "https://shop.2-com.net/#/start/login"
+        }
+      ]
+    },
+    {
+      "domain": "2ldm.com",
+      "technology": "Animate.css",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='animate']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "ntent/plugins/js_composer/assets/lib/vendor/dist/animate.css/animate.min.css?ver=9.2",
+          "strength": 3,
+          "pageUrl": "https://2ldm.com/"
+        }
+      ]
+    },
+    {
+      "domain": "3dwealthadvisory.com",
+      "technology": "anime.js",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "js",
+          "key": "anime.version",
+          "value": "3.2.1",
+          "strength": 3,
+          "pageUrl": "https://3dwealthadvisory.com/"
+        }
+      ]
+    },
+    {
+      "domain": "bas-ingenieria.cl",
+      "technology": "AOS",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dom",
+          "key": "{\"selector\":\" body[data-aos-easing]\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "http://bas-ingenieria.cl/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\" body[data-aos-easing]\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "http://bas-ingenieria.cl/about.html"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\" body[data-aos-easing]\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "http://bas-ingenieria.cl/services.html"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\" body[data-aos-easing]\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://www.bas-ingenieria.cl/"
+        }
+      ]
+    },
+    {
+      "domain": "3xd.co.uk",
+      "technology": "Apple iCloud Mail",
+      "confidence": "probable",
+      "evidenceQuality": "indirect",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "TXT",
+          "value": "apple-domain-verification=hdh9L62f0A1VWjyh",
+          "strength": 2,
+          "pageUrl": "https://www.3xd.co.uk/"
+        }
+      ]
+    },
+    {
+      "domain": "herbalwise.ie",
+      "technology": "Apple Pay",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-apple_pay']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"script#apple-pay-shop-capabilities\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-apple_pay']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/collections/all"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"script#apple-pay-shop-capabilities\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/collections/all"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-apple_pay']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/cart"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"script#apple-pay-shop-capabilities\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/cart"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[aria-labelledby='pi-apple_pay']\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/products/millennium-gold"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"script#apple-pay-shop-capabilities\",\"kind\":\"exists\",\"name\":\"\"}",
+          "value": "true",
+          "strength": 3,
+          "pageUrl": "https://herbalwise.ie/products/millennium-gold"
+        }
+      ]
+    },
+    {
+      "domain": "chiantifiorentino.it",
+      "technology": "Aruba.it",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "SOA",
+          "value": "dns.technorail.com",
+          "strength": 3,
+          "pageUrl": "https://www.chiantifiorentino.it/web/"
+        }
+      ]
+    },
+    {
+      "domain": "365outsource.com",
+      "technology": "Astra",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "script",
+          "value": "https://www.365outsource.com/wp-content/themes/astra/assets/js/minified/style.min.js?ver=4.14.3",
+          "strength": 3,
+          "pageUrl": "https://www.365outsource.com/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='themes/astra']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "https://www.365outsource.com/wp-content/themes/astra/assets/css/minified/style.min.css?ver=4.14.3",
+          "strength": 3,
+          "pageUrl": "https://www.365outsource.com/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"style[id*='astra-theme'], body[class*='astra-'], script[id*='astra-']\",\"kind\":\"text\",\"name\":\"\"}",
+          "value": "\n.ast-no-sidebar .entry-content .alignfull {margin-left: calc( -50vw + 50%);margin-right: calc( -50vw + 50%);max-width: 100vw;width: 100vw;}.ast-no-sidebar .entry-content .alignwide…",
+          "strength": 3,
+          "pageUrl": "https://www.365outsource.com/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"style[id*='astra-theme'], body[class*='astra-'], script[id*='astra-']\",\"kind\":\"text\",\"name\":\"\"}",
+          "value": "\n\t\t\t\n\t\t\t(function(){var mq=window.matchMedia('(max-width:921.98p",
+          "strength": 3,
+          "pageUrl": "https://www.365outsource.com/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"style[id*='astra-theme'], body[class*='astra-'], script[id*='astra-']\",\"kind\":\"text\",\"name\":\"\"}",
+          "value": "\nvar astra = {\"break_point\":\"921\",\"isRtl\":\"\",\"is_scroll_to_id\":\"\",\"is_scroll_to_top\":\"1\",\"is_header_footer_builder_active\":\"\",\"responsive_cart_click\":\"flyout\",\"is_dark_palette\":\"\",\"…",
+          "strength": 3,
+          "pageUrl": "https://www.365outsource.com/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"style[id*='astra-theme'], body[class*='astra-'], script[id*='astra-']\",\"kind\":\"text\",\"name\":\"\"}",
+          "value": "\nvar astraAddon = {\"is_elementor_active\":\"1\",\"sticky_active\":\"\",\"svgIconClose\":\"\\u003Cspan class=\\\"ast-icon icon-close\\\"\\u003E\\u003C/span\\u003E\",\"hook_sticky_footer\":\"\",\"hook_sticky…",
+          "strength": 3,
+          "pageUrl": "https://www.365outsource.com/"
+        }
+      ]
+    },
+    {
+      "domain": "solvos.nl",
+      "technology": "Astro",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-hghgmujw",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-rydj3gbl",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/_..Bqspa9ZU.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/Layout.DdNzbuYh.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-hghgmujw",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-clarity/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-4cflu3ho",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-clarity/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-rmcdqpfe",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-clarity/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/_..Bqspa9ZU.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-clarity/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/Layout.DdNzbuYh.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-clarity/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-hghgmujw",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-atlas/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-4cflu3ho",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-atlas/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-rmcdqpfe",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-atlas/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/_..Bqspa9ZU.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-atlas/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/Layout.DdNzbuYh.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/cases/revit-atlas/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-hghgmujw",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/contact/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"[class^='astro-']\",\"kind\":\"attribute\",\"name\":\"class\"}",
+          "value": "astro-zeyb3vaw",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/contact/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/_..Bqspa9ZU.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/contact/"
+        },
+        {
+          "source": "dom",
+          "key": "{\"selector\":\"link[href*='/_astro/']\",\"kind\":\"attribute\",\"name\":\"href\"}",
+          "value": "/_astro/Layout.DdNzbuYh.css",
+          "strength": 3,
+          "pageUrl": "https://www.solvos.nl/nl/contact/"
+        }
+      ]
+    },
+    {
+      "domain": "2-com.net",
+      "technology": "Azure",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns3-06.azure-dns.org",
+          "strength": 3,
+          "pageUrl": "https://2-com.net/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns4-06.azure-dns.info",
+          "strength": 3,
+          "pageUrl": "https://2-com.net/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns1-06.azure-dns.com",
+          "strength": 3,
+          "pageUrl": "https://2-com.net/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns2-06.azure-dns.net",
+          "strength": 3,
+          "pageUrl": "https://2-com.net/"
+        }
+      ]
+    },
+    {
+      "domain": "celiabedilia.com",
+      "technology": "Baidu Analytics (百度统计)",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "script",
+          "value": "https://hm.baidu.com/hm.js?af71f27a888db2d1cb746d1ff59bd029",
+          "strength": 3,
+          "pageUrl": "http://celiabedilia.com/"
+        },
+        {
+          "source": "script",
+          "value": "https://hm.baidu.com/hm.js?8e1df91611627c21bf39ae4ad3304f2d",
+          "strength": 3,
+          "pageUrl": "http://celiabedilia.com/"
+        },
+        {
+          "source": "script",
+          "value": "https://hm.baidu.com/hm.js?619b4901600e6cc6880e96c099454dea",
+          "strength": 3,
+          "pageUrl": "http://celiabedilia.com/"
+        }
+      ]
+    },
+    {
+      "domain": "celiabedilia.com",
+      "technology": "Baidu Share",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "html",
+          "value": "<script>new Image().src=\"//api.share.baidu.com/s.gif?l=\" + location.href</script>",
+          "strength": 3,
+          "pageUrl": "http://celiabedilia.com/"
+        }
+      ]
+    },
+    {
+      "domain": "1stlocksheathscouts.org.uk",
+      "technology": "Bluehost",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "SOA",
+          "value": "root.bluehost.COM",
+          "strength": 3,
+          "pageUrl": "https://1stlocksheathscouts.org.uk/"
+        }
+      ]
+    },
+    {
+      "domain": "katesworldtravel.com",
+      "technology": "Bluehost DNS",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns1.bluehost.com",
+          "strength": 3,
+          "pageUrl": "https://katesworldtravel.com/"
+        },
+        {
+          "source": "dns",
+          "key": "NS",
+          "value": "ns2.bluehost.com",
+          "strength": 3,
+          "pageUrl": "https://katesworldtravel.com/"
+        }
+      ]
+    },
+    {
+      "domain": "3xd.co.uk",
+      "technology": "Bootstrap",
+      "confidence": "confirmed",
+      "evidenceQuality": "direct",
+      "evidence": [
+        {
+          "source": "script",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js?ver=2.3.4",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/"
+        },
+        {
+          "source": "stylesheet",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css?ver=7.1.5",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/"
+        },
+        {
+          "source": "js",
+          "key": "bootstrap.Alert.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/"
+        },
+        {
+          "source": "js",
+          "key": "jQuery.fn.tooltip.Constructor.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/"
+        },
+        {
+          "source": "script",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js?ver=2.3.4",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/"
+        },
+        {
+          "source": "stylesheet",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css?ver=7.1.5",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/"
+        },
+        {
+          "source": "js",
+          "key": "bootstrap.Alert.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/"
+        },
+        {
+          "source": "js",
+          "key": "jQuery.fn.tooltip.Constructor.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/"
+        },
+        {
+          "source": "script",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js?ver=2.3.4",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/home-insurance/"
+        },
+        {
+          "source": "stylesheet",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css?ver=7.1.5",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/home-insurance/"
+        },
+        {
+          "source": "js",
+          "key": "bootstrap.Alert.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/home-insurance/"
+        },
+        {
+          "source": "js",
+          "key": "jQuery.fn.tooltip.Constructor.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/home-insurance/"
+        },
+        {
+          "source": "script",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js?ver=2.3.4",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/landlords-insurance/"
+        },
+        {
+          "source": "stylesheet",
+          "value": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css?ver=7.1.5",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/landlords-insurance/"
+        },
+        {
+          "source": "js",
+          "key": "bootstrap.Alert.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/landlords-insurance/"
+        },
+        {
+          "source": "js",
+          "key": "jQuery.fn.tooltip.Constructor.VERSION",
+          "value": "5.3.2",
+          "strength": 3,
+          "pageUrl": "https://www.3xd.co.uk/products/landlords-insurance/"
+        }
+      ]
+    }
+  ]
+}

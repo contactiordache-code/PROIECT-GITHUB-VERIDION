@@ -1,0 +1,27 @@
+{
+  "name": "veridion-technology-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test 'dist/**/*.test.js'",
+    "scan": "npm run build && node dist/src/cli.js",
+    "validate": "npm run build && node dist/src/validate.js",
+    "consolidate": "npm run build && node dist/src/consolidate.js",
+    "recover:firecrawl": "npm run build && node dist/src/firecrawl.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "hyparquet": "^1.23.3",
+    "playwright": "^1.57.0",
+    "re2-wasm": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
