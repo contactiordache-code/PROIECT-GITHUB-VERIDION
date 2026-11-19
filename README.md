@@ -1,5 +1,291 @@
 # Website Technologies Scraper
 
+Evidence-first technology detection for the 200-domain Veridion challenge. The project combines HTTP, DNS, and TLS analysis with Chromium rendering, JavaScript signals, and a reproducible fingerprint catalogue.
+
+## Contents
+
+- [Final result](#final-result)
+- [Challenge requirements](#challenge-requirements)
+- [Solution](#solution)
+- [Evidence and confidence](#evidence-and-confidence)
+- [Firecrawl, Apify, and BuiltWith](#firecrawl-apify-and-builtwith)
+- [Deliverables](#deliverables)
+- [Installation and usage](#installation-and-usage)
+- [Limitations and improvements](#limitations-and-improvements)
+- [Scaling to millions of domains](#scaling-to-millions-of-domains)
+- [Discovering new technologies](#discovering-new-technologies)
+- [Suggested presentation](#suggested-presentation)
+
+## Final result
+
+| Metric | Result |
+|---|---:|
+| Input domains | 200 |
+| Accessible domains | 186 |
+| Unavailable domains | 14 |
+| Domain–technology detections | 2,078 |
+| Confirmed detections | 1,985 |
+| Probable detections | 93 |
+| Distinct technology names identified | 335 |
+| Distinct technologies with a confirmed occurrence | 309 |
+| Automated tests | 40/40 |
+
+The challenge states that its private reference contains 477 distinct technologies. Its labels, normalization rules, and collection date are not available. Therefore, `335 / 477 = 70.2%` is only a ratio between two counts. It is **not measured recall**, and this project does not claim that its 335 names are an exact subset of the private 477 labels.
+
+## Challenge requirements
+
+The scenario concerns a company that develops an analytics plugin for Shopify stores. Its sales team wants to identify websites using competing products.
+
+The solution must:
+
+- gather as many technologies as possible;
+- provide proof for every technology conclusion;
+- produce results for every input domain;
+- include the code and detection logic;
+- discuss the main implementation issues;
+- explain how the system could scale to millions of domains in 1–2 months;
+- explain how new technologies could be discovered in the future.
+
+## Solution
+
+The project is implemented in TypeScript on Node.js. Collection has two stages.
+
+### 1. HTTP, DNS, and TLS collection
+
+For every domain, the scanner collects:
+
+- the final URL and redirect chain;
+- HTTP headers;
+- cookie names;
+- HTML and metadata;
+- scripts and stylesheets;
+- `MX`, `NS`, `SOA`, and `TXT` DNS records;
+- the verified TLS certificate issuer.
+
+### 2. Chromium analysis
+
+Playwright and Chromium collect signals that are not reliably visible through a basic HTTP request:
+
+- the rendered DOM;
+- JavaScript globals;
+- XHR and `fetch` URLs;
+- up to three relevant internal pages;
+- the public `shop`, `store`, `app`, and `www` subdomains;
+- service workers, manifests, `modulepreload`, CSS, and bounded public source maps.
+
+Network destinations are validated before access. Private and reserved addresses are blocked, including redirect destinations.
+
+### 3. Detection rules
+
+Collected signals are evaluated against:
+
+- a pinned HTTP Archive/Wappalyzer catalogue;
+- a small set of locally audited rules;
+- alias and duplicate-name normalization.
+
+The catalogue is pinned to commit:
+
+```text
+35b0847c01c118055c42596d5c6d01f60f15d706
+```
+
+Pinning makes the run reproducible. RE2-WASM evaluates expressions applied to large HTML, inline JavaScript, and CSS values with bounded processing behavior.
+
+## Evidence and confidence
+
+Every detection stores:
+
+- the signal source;
+- the inspected key, when applicable;
+- the exact matching excerpt;
+- evidence strength;
+- the exact page where the signal was observed.
+
+Confidence levels are:
+
+- `confirmed` — a strong direct signal or enough independent evidence;
+- `probable` — relevant evidence that is not sufficient for confirmation.
+
+Provider-specific `NS`, `MX`, and `SOA` records may confirm a service. Detections based only on DNS `TXT` records remain `probable`. The scanner does not infer databases or other server-side products without direct evidence.
+
+The final output contains 8,135 evidence items. No domain–technology detection is stored without evidence. Sensitive-looking tokens found in third-party website code are redacted before evidence is written.
+
+Simplified evidence example:
+
+```json
+{
+  "name": "Elementor Pro",
+  "confidence": "confirmed",
+  "evidence": [{
+    "source": "script",
+    "value": "/wp-content/plugins/elementor-pro/assets/js/frontend.min.js",
+    "strength": 3,
+    "pageUrl": "https://example.com/"
+  }]
+}
+```
+
+## Firecrawl, Apify, and BuiltWith
+
+These services were used for recovery, independent comparison, and candidate discovery. Their labels were never imported without verification.
+
+### Firecrawl
+
+Firecrawl was tested as a recovery method for the 14 domains that remained unavailable after HTTP and Chromium attempts.
+
+The returned HTML was converted to the scanner's internal collection format and evaluated with the same detection rules. Firecrawl added no new technology for those domains, so a paid full pass over all 200 domains was not justified. The optional integration is implemented in `src/firecrawl.ts`. Its API key is read only from an environment variable and is not stored in the repository.
+
+### Apify
+
+Five JSON exports from the Website Tech Stack Detector actor were supplied and audited:
+
+```text
+dataset_website-tech-stack-detector_2026-11-19_16-46-16-456.json
+dataset_website-tech-stack-detector_2026-11-19_16-52-01-770.json
+dataset_website-tech-stack-detector_2026-11-19_17-00-13-587.json
+dataset_website-tech-stack-detector_2026-11-19_17-04-01-405.json
+dataset_website-tech-stack-detector_2026-11-19_17-07-20-641.json
+```
+
+For every Apify candidate:
+
+1. aliases were normalized;
+2. the candidate was compared on the same domain;
+3. the retained HTML, scripts, headers, and runtime signals were inspected;
+4. the candidate was accepted only with direct evidence;
+5. every new rule received an automated test.
+
+Apify helped identify and verify Sentry, Fastly, Mailchimp, and Square. Generic matches were rejected. For example, Magento was not accepted when `/static/version` was the only signal.
+
+### BuiltWith
+
+Two main BuiltWith exports were audited:
+
+```text
+dataset_builtwith-official-technology-scraper_2026-11-19_17-19-08-157.json
+dataset_builtwith-official-technology-scraper_2026-11-19_17-32-12-524.json
+```
+
+The first export exposed a DNS key-normalization issue involving `MX`, `NS`, `SOA`, and `TXT`. After the fix, DNS detection was rerun for all 200 domains.
+
+The second export contained 178 rows, 8,632 associations, and 1,629 raw labels. Historical entries, server locations, Common Crawl labels, generic page attributes, aliases, and unidentified custom plugins were excluded. The remaining candidates were checked against direct assets observed on the same domains.
+
+This audit added 25 distinct confirmed technologies across 42 domain–technology occurrences, including Elementor Pro, Isotope, reCAPTCHA Enterprise, WPBakery Page Builder, Formidable Forms, Kadence Blocks, Modern Events Calendar, Jet components, Paid Memberships Pro, and Simple Cloudflare Turnstile.
+
+The complete experiment history is available in `docs/EXPERIMENTS.md`.
+
+## Deliverables
+
+```text
+.
+├── data/input/                 # the 200 input domains
+├── docs/EXPERIMENTS.md         # experiments and decisions
+├── experiments/raw/            # independent httpx/WhatWeb results
+├── results/final-deep-audited/ # final output
+├── src/                        # implementation
+├── test/                       # automated tests
+├── vendor/wappalyzer/          # pinned fingerprint catalogue
+├── LICENSE
+└── THIRD_PARTY_NOTICES.md
+```
+
+Final output files:
+
+- `results/final-deep-audited/results.json` — complete detections and evidence;
+- `results/final-deep-audited/results.csv` — compact per-domain output;
+- `results/final-deep-audited/summary.json` — aggregate metrics and distinct names;
+- `results/final-deep-audited/validation.json` — same-domain comparison with httpx.
+
+## Installation and usage
+
+Requirements:
+
+- Node.js 22.12 or newer;
+- Chromium for Playwright.
+
+```bash
+npm install
+npx playwright install chromium
+npm test
+npm run scan -- --output results/final --concurrency 4 --deep
+```
+
+The default input is `data/input/domains.parquet`.
+
+Independent validation can be regenerated with:
+
+```bash
+npm run validate -- \
+  results/final-deep-audited/results.json \
+  experiments/raw/httpx.jsonl \
+  results/final-deep-audited/validation.json
+```
+
+## Limitations and improvements
+
+### Unavailable domains
+
+Fourteen domains could not be reached. A production system could repeat captures at different times and from multiple regions. Failed domains must remain explicit failures rather than being treated as sites with no technologies.
+
+### Dynamic and regional content
+
+Loaded technologies may depend on location, consent, or user interaction. Regional browser profiles and controlled consent scenarios would improve coverage.
+
+### Incomplete fingerprints
+
+Products may be renamed, bundled, or moved. The catalogue requires periodic updates, reviewed rules, and positive and negative fixtures.
+
+### Private reference set
+
+Exact precision and recall against the 477 labels cannot be calculated without their names, collection date, and normalization rules. The reported 70.2% is only `our distinct count / private reference count`, not verified overlap.
+
+## Scaling to millions of domains
+
+For millions of domains within 1–2 months:
+
+1. distribute domains through a queue to stateless workers;
+2. run the inexpensive HTTP, DNS, and TLS stage for every domain;
+3. invoke Chromium only for low-coverage or JavaScript-dependent sites;
+4. cache DNS, TLS, content hashes, and shared assets;
+5. apply per-host rate limits, bounded retries, and circuit breakers;
+6. store raw signals separately from normalized detections;
+7. replay new rules over stored signals without a complete recrawl.
+
+Operational metrics should include throughput, latency, failure rate, browser usage, cost per domain, and confidence distribution.
+
+## Discovering new technologies
+
+Unknown scripts, stylesheets, XHR endpoints, external domains, generators, DNS records, and JavaScript globals can be clustered and ranked by:
+
+- frequency across independent domains;
+- consistency with a vendor domain or package name;
+- stability across repeated captures;
+- availability of official documentation;
+- absence of matches in negative fixtures.
+
+A new fingerprint should require review, a positive fixture, a negative fixture, and an automated test. Package registries, CMS directories, vendor changelogs, and upstream Wappalyzer updates can be monitored for candidates.
+
+## Suggested presentation
+
+1. Explain the business problem and the 200-domain input.
+2. Introduce the evidence-first principle.
+3. Present the HTTP/DNS/TLS and Chromium stages.
+4. Show one complete `results.json` evidence example.
+5. Present the 335 distinct names and 2,078 detections without claiming verified overlap with the private 477 labels.
+6. Explain independent verification with httpx, Apify, and BuiltWith.
+7. Show rejected candidates and the reasons for rejecting them.
+8. Close with limitations and the scaling plan.
+
+## License
+
+The project is distributed under GPL-3.0 because it includes a Wappalyzer-derived catalogue. See `LICENSE` and `THIRD_PARTY_NOTICES.md`.
+
+--------------------------------------------------------------------------------
+
+# Versiunea în limba română
+
+# Website Technologies Scraper
+
 Instrument pentru identificarea tehnologiilor folosite de site-uri, realizat pentru provocarea tehnică Veridion. Soluția analizează 200 de domenii și păstrează dovezi verificabile pentru fiecare detecție.
 
 ## Cuprins
@@ -30,7 +316,7 @@ Instrument pentru identificarea tehnologiilor folosite de site-uri, realizat pen
 | Tehnologii distincte cu apariții confirmate | 309 |
 | Teste automate | 40/40 |
 
-Setul de referință menționează 477 de tehnologii distincte. Lista acestora, data colectării și regulile de normalizare nu sunt publice. Din acest motiv, `335 / 477 = 70,2%` este o comparație de acoperire, nu un recall măsurat față de un ground truth disponibil.
+Setul de referință menționează 477 de tehnologii distincte. Lista acestora, data colectării și regulile de normalizare nu sunt publice. Din acest motiv, `335 / 477 = 70,2%` este doar raportul dintre două numere. Nu reprezintă recall măsurat și nu afirmăm că cele 335 de denumiri sunt un subset exact al celor 477 de etichete private.
 
 ## Cerința proiectului
 
@@ -267,7 +553,7 @@ Tehnologiile pot fi redenumite, incluse în bundle-uri sau mutate. Catalogul tre
 
 ### Referință indisponibilă
 
-Cele 477 de etichete nu sunt publice. Pentru măsurarea exactă a precision și recall ar fi necesare lista etichetată, data colectării și regulile de normalizare.
+Cele 477 de etichete nu sunt publice. Pentru măsurarea exactă a precision și recall ar fi necesare lista etichetată, data colectării și regulile de normalizare. Procentul de 70,2% reprezintă numai `numărul nostru distinct / numărul de referință`, nu suprapunerea verificată dintre cele două liste.
 
 ## Scalare la milioane de domenii
 
@@ -303,7 +589,7 @@ Ordinea recomandată pentru prezentare:
 2. principiul bazat pe dovezi;
 3. colectarea HTTP/DNS/TLS și etapa Chromium;
 4. un exemplu complet din `results.json`;
-5. rezultatul: 335 de tehnologii distincte și 2.078 de detecții;
+5. rezultatul: 335 de tehnologii distincte și 2.078 de detecții, fără a susține că cele 335 coincid cu etichetele private;
 6. verificarea cu httpx, Apify și BuiltWith;
 7. candidații respinși și motivele;
 8. limitările și planul de scalare.

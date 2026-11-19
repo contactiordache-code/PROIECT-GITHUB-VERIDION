@@ -239,10 +239,9 @@ is required for confirmed status.
 - 819/1,006 comparable detections independently corroborated by httpx (81.4%)
 - 0 production dependency vulnerabilities reported by `npm audit --omit=dev`
 
-Against the challenge's unpublished set of 477 distinct technologies, candidate
-recall is at most 35.4% (308 names short). High-confidence coverage is 30.8%
-(330 names short). These are coverage comparisons, not true recall, because the
-reference labels and counting rules are unavailable.
+The candidate count is 35.4% of the private reference count, while the
+high-confidence count is 30.8%. These count ratios do not measure overlap or
+recall because the reference labels and counting rules are unavailable.
 
 ## 2026-11-19 — Firecrawl recovery and audited candidate assets
 
@@ -269,8 +268,8 @@ server-side implications such as MySQL and generic cloud hosting were rejected.
 - 177 distinct candidates; 155 with a confirmed occurrence
 - 839/1,029 comparable detections independently corroborated (81.5%)
 - 23/23 tests passing and 0 production dependency vulnerabilities
-- candidate coverage versus 477: 37.1%, or 300 names short
-- confirmed coverage versus 477: 32.5%, or 322 names short
+- candidate-count ratio versus 477: 37.1%
+- confirmed-count ratio versus 477: 32.5%
 
 ## 2026-11-19 — Full runtime, DOM, XHR, DNS, and TLS audit
 
@@ -295,8 +294,8 @@ implications such as MySQL remain excluded.
 - 230 distinct technologies with at least one confirmed occurrence
 - 837/1,677 comparable detections independently corroborated by httpx (49.9%)
 - 26/26 tests passing
-- candidate coverage versus 477: 51.8%, or 230 names short
-- confirmed coverage versus 477: 48.2%, or 247 names short
+- candidate-count ratio versus 477: 51.8%
+- confirmed-count ratio versus 477: 48.2%
 
 The lower independent-agreement percentage is expected because httpx did not
 collect the newly enabled DOM, runtime-global, or certificate-issuer classes.
@@ -333,8 +332,8 @@ are rejected to avoid named-DOM false positives. A final scope audit removed
 - 335 distinct candidates; 309 with a confirmed occurrence
 - 88 distinct names added versus the audited homepage/runtime run
 - 40/40 tests passing
-- candidate coverage versus 477: 70.2%, or 142 names short
-- confirmed coverage versus 477: 64.8%, or 168 names short
+- candidate-count ratio versus 477: 70.2%
+- confirmed-count ratio versus 477: 64.8%
 
 New directly evidenced technologies include Essential Blocks, Friendly
 Captcha, JetEngine, LinkedIn Sign-in, Magnific Popup, Max Mega Menu, Morphext,
